@@ -23,6 +23,8 @@ env/
 .DS_Store
 Thumbs.db
 
-# Temporary
+# Temporary & Cache
 *.log
 *.tmp
+data/cache/
+*.jsonl

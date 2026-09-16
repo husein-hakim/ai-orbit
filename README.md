@@ -1,7 +1,7 @@
 # AIOrbit MCP Data Extraction & Curation Pipeline
 
 ## Overview
-This repository contains the complete enterprise-grade data extraction, verification, scoring, and curation pipeline for the **Model Context Protocol (MCP)** module of **AIOrbit**. The dataset contains **3,844 verified, high-quality MCP Servers and Clients** across 31 industry categories, strictly adhering to AIOrbit quality benchmarks, 100-point scoring framework, and zero-duplicate guarantees.
+This repository contains the complete enterprise-grade data extraction, verification, scoring, and curation pipeline for the **Model Context Protocol (MCP)** module of **AIOrbit**. The dataset contains **10,594 verified, high-quality MCP Servers and Clients** across 31 industry categories, strictly adhering to AIOrbit quality benchmarks, 100-point scoring framework, and zero-duplicate guarantees.
 
 ---
 
@@ -9,44 +9,44 @@ This repository contains the complete enterprise-grade data extraction, verifica
 
 | Metric | Value |
 |---|---|
-| **Total Curated Records** | **3,844** |
-| **MCP Servers** | 3,795 |
-| **MCP Clients** | 49 |
+| **Total Curated Records** | **10,594** |
+| **MCP Servers** | **9,995** |
+| **MCP Clients** | **599** |
 | **Official Products / Integrations** | 77+ (Anthropic, Microsoft, GitHub, Google, AWS, Cloudflare, Supabase, Neon, Sentry, Linear, Docker, etc.) |
-| **Average Quality Score** | 70.4 / 100 |
+| **Average Quality Score** | **75.9 / 100** |
 | **Quality Score Range** | 70 – 87 (100% pass ≥ 70 threshold) |
-| **Duplicate Records** | 0 (Strict canonical deduplication on URLs and Names) |
-| **Missing Fields** | 0 (Complete metadata across all **35** required fields) |
+| **Duplicate Records** | **0** (Strict canonical deduplication on URLs and Names) |
+| **Missing Fields** | **0** (Complete metadata across all **35** required fields) |
 | **Unique Categories** | 31 canonical domains |
-
 
 ---
 
 ## Data Sources (Priority Hierarchy)
 
-1. **Official Reference Implementations & Registries**: `modelcontextprotocol/servers`, `modelcontextprotocol.io`
-2. **Curated Ecosystem Directories**: `punkpeye/awesome-mcp-servers`, `wong2/awesome-mcp-servers`, `appcypher/awesome-mcp-servers`
-3. **Registry Discovery & Indexing**: Glama.ai, Smithery, NPM `@modelcontextprotocol` & `mcp-server` registries
-4. **Primary Source Verification**: Official vendor websites, GitHub organizations, documentation portals, and repository metadata.
+1. **Priority 1 — Creati.ai**: `https://creati.ai/mcp/server/` & `https://creati.ai/mcp/client/` (Ingested via high-speed Cloudflare CDN data feeds with full product metadata, tools, cases, and languages)
+2. **Priority 2 — Official Reference Implementations & Registries**: `modelcontextprotocol/servers`, `modelcontextprotocol.io`
+3. **Priority 2 — Curated Ecosystem Directories**: `punkpeye/awesome-mcp-servers`, `wong2/awesome-mcp-servers`, `appcypher/awesome-mcp-servers`
+4. **Registry Discovery & Indexing**: Glama.ai, Smithery, NPM `@modelcontextprotocol` & `mcp-server` registries
+5. **Primary Source Verification**: Official vendor websites, GitHub organizations, documentation portals, and repository metadata.
 
 ---
 
 ## Category Distribution (Top Domains)
 
-- **Developer Tools**: 1,156 records (SDKs, code execution, sandbox, linters, debuggers)
-- **Finance & Fintech**: 406 records (crypto, DeFi, market data, portfolio analytics)
-- **Knowledge & Memory**: 304 records (knowledge graphs, vector memory, Obsidian, RAG)
-- **Search & Research**: 214 records (web search, scraping, academic indexers, semantic search)
-- **Security**: 209 records (vulnerability scanners, IAM, secret management, CVE lookups)
+- **Developer Tools**: 7,822 records (SDKs, code execution, sandbox, linters, debuggers)
+- **Finance & Fintech**: 409 records (crypto, DeFi, market data, portfolio analytics)
+- **Search & Research**: 316 records (web search, scraping, academic indexers, semantic search)
+- **Knowledge & Memory**: 307 records (knowledge graphs, vector memory, Obsidian, RAG)
+- **Security**: 210 records (vulnerability scanners, IAM, secret management, CVE lookups)
 - **Multimedia & Audio**: 153 records (image/video generation, audio transcription, TTS/STT)
 - **Workplace & Productivity**: 142 records (task management, calendars, documentation)
-- **Communication**: 130 records (Slack, Discord, Telegram, email, messaging)
+- **Communication**: 137 records (Slack, Discord, Telegram, email, messaging)
 - **Databases**: 110 records (PostgreSQL, MySQL, SQLite, MongoDB, Redis, Neon, Supabase, DuckDB, ClickHouse)
-- **Cloud & DevOps**: 107 records (AWS, GCP, Azure, Cloudflare, Docker, Kubernetes, Terraform)
+- **Cloud & DevOps**: 108 records (AWS, GCP, Azure, Cloudflare, Docker, Kubernetes, Terraform)
 - **Gaming & Entertainment**: 96 records
 - **Browser Automation**: 91 records (Playwright, Puppeteer, Selenium)
 - **Marketing & SEO**: 87 records
-- **Monitoring & Observability**: 63 records (Datadog, Sentry, Grafana, Prometheus)
+- **Monitoring & Observability**: 64 records (Datadog, Sentry, Grafana, Prometheus)
 - **Research**: 57 records
 - **Travel & Transportation**: 50 records
 - **Data Platforms & Pipelines**: 48 records
@@ -58,6 +58,7 @@ This repository contains the complete enterprise-grade data extraction, verifica
 - **Legal & Compliance**: 37 records
 - **E-Commerce**: 32 records
 - **IoT & Hardware**: 29 records
+
 - **Customer Support & CRM**: 24 records
 - **Version Control & Git**: 22 records
 - **AI/ML & MCP Clients**: 19 records

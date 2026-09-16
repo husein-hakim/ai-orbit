@@ -7,28 +7,35 @@ This document details the rigorous methodology, verification architecture, scori
 
 ## Scope & Target
 - **Module**: Model Context Protocol (MCP) — Servers, Clients, and Frameworks
-- **Target**: 1,000 to 2,000+ records
-- **Achieved Curated Records**: **3,844 verified, unique records**
-- **Quality Score Range**: 72 – 96 (100% compliant with $\ge 70$ threshold)
+- **Target**: ~10,000 curated, high-quality records
+- **Achieved Curated Records**: **10,594 verified, unique records** (9,995 Servers, 599 Clients)
+- **Quality Score Range**: 70 – 87 (Average: 75.9, 100% compliant with $\ge 70$ threshold)
 
 ---
 
 ## Data Sources & Priority Hierarchy
 
-### Priority 1 — Discovery Sources
-1. **Curated Ecosystem Directories**:
-   - `punkpeye/awesome-mcp-servers` (Markdown registry with 3,900+ items across 50+ sections)
-   - `wong2/awesome-mcp-servers` & `appcypher/awesome-mcp-servers`
-2. **Official Registries & Reference Implementations**:
+### Priority 1 — Discovery Sources: Creati.ai
+Per the project guidelines, Creati.ai was treated as the Priority 1 primary discovery source:
+- **MCP Servers**: `https://creati.ai/mcp/server/`
+- **MCP Clients**: `https://creati.ai/mcp/client/`
+- **Ingestion Feeds**: Direct programmatic ingestion via Creati.ai's high-performance Cloudflare CDN indices (`cdn-image.creati.ai/mcp/json/search/v3/mcp-search.json` and `/details/v3/{handle}.json`), providing complete structural metadata: developer profile, use cases, core tools, benefits, language distributions, and categories.
+
+### Priority 2 — Secondary Discovery & Reference Registries
+1. **Official Registries & Reference Implementations**:
    - `modelcontextprotocol/servers` (Anthropic reference implementations)
    - `modelcontextprotocol.io` official documentation
+2. **Curated Ecosystem Directories**:
+   - `punkpeye/awesome-mcp-servers` (Markdown registry with 3,900+ items across 50+ sections)
+   - `wong2/awesome-mcp-servers` & `appcypher/awesome-mcp-servers`
 3. **Package & Registry Aggregators**:
    - NPM Registry (`@modelcontextprotocol/*`, `keywords:mcp-server`)
    - Glama.ai MCP Registry & Smithery directory
 
-### Priority 2 — Verification & Enrichment Sources
+### Priority 3 — Verification & Enrichment Sources
 - Official vendor websites (Anthropic, Microsoft, GitHub, Google, AWS, Cloudflare, Supabase, Neon, Sentry, Linear, Docker, Stripe, Redis, Elastic, etc.)
 - Official GitHub repository metadata, avatars, license files, and release histories.
+
 
 ---
 

@@ -15,7 +15,11 @@
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
+    "transport": "stdio",
+    "mcp_type": "Server",
     "quality_score": 87,
+    "is_official": true,
+    "github_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
@@ -25,11 +29,7 @@
       "Zed",
       "VS Code (GitHub Copilot)"
     ],
-    "install_method": "npx",
-    "github_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Server"
+    "install_method": "npx"
   },
   {
     "id": "5e681222-671c-51c8-9c4e-61c453e83d45",
@@ -47,7 +47,11 @@
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
+    "transport": "stdio",
+    "mcp_type": "Client",
     "quality_score": 87,
+    "is_official": true,
+    "github_url": "https://github.com/anthropics/claude-code",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
@@ -57,11 +61,38 @@
       "Zed",
       "VS Code (GitHub Copilot)"
     ],
-    "install_method": "npx",
-    "github_url": "https://github.com/anthropics/claude-code",
-    "is_official": true,
+    "install_method": "npx"
+  },
+  {
+    "id": "5c5baadf-78c0-5328-8224-b85a4ace1f9e",
+    "entity_type": "mcp",
+    "name": "Run Model Context Protocol Servers with AWS Lambda MCP Server",
+    "description": "Run Model Context Protocol Servers with AWS Lambda is an MCP server that deploy your Model Context Protocol servers as AWS Lambda functions for scalable, stateless communication in cloud and distributed systems.",
+    "url": "https://aws.amazon.com",
+    "categories": [
+      "mcp",
+      "Developer Tools",
+      "Developer Tools"
+    ],
+    "source": {
+      "name": "Creati.ai",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers"
+    },
+    "ingested_at": "2026-09-16",
     "transport": "stdio",
-    "mcp_type": "Client"
+    "mcp_type": "Server",
+    "quality_score": 87,
+    "is_official": true,
+    "github_url": "https://github.com/awslabs/run-model-context-protocol-servers-with-aws-lambda",
+    "supported_clients": [
+      "Claude Desktop",
+      "Claude Code",
+      "Cursor",
+      "Continue",
+      "Cline",
+      "Zed"
+    ],
+    "install_method": "pip"
   },
   {
     "id": "94998324-c62f-5eb6-b0b5-72f09499f68d",
@@ -79,7 +110,11 @@
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
+    "transport": "stdio, SSE",
+    "mcp_type": "Server",
     "quality_score": 85,
+    "is_official": true,
+    "github_url": "https://github.com/microsoft/playwright-mcp",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
@@ -89,11 +124,7 @@
       "Zed",
       "VS Code (GitHub Copilot)"
     ],
-    "install_method": "npx",
-    "github_url": "https://github.com/microsoft/playwright-mcp",
-    "is_official": true,
-    "transport": "stdio, SSE",
-    "mcp_type": "Server"
+    "install_method": "npx"
   },
   {
     "id": "897da547-a9c9-58c6-9110-4f1776a833d1",
@@ -111,39 +142,11 @@
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
-    "quality_score": 85,
-    "supported_clients": [
-      "Claude Desktop",
-      "Claude Code",
-      "Cursor",
-      "Continue",
-      "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
-    ],
-    "install_method": "binary",
-    "github_url": "https://github.com/github/github-mcp-server",
-    "is_official": true,
     "transport": "stdio",
-    "mcp_type": "Server"
-  },
-  {
-    "id": "a306a209-275d-52f1-94b7-5ad75f54d676",
-    "entity_type": "mcp",
-    "name": "AWS MCP Servers",
-    "description": "Official AWS MCP servers collection providing AI agents with access to core AWS services. Includes servers for S3, DynamoDB, Lambda, CloudWatch, CDK, and other AWS services, enabling infrastructure management and cloud operations through natural language.",
-    "url": "https://aws.amazon.com",
-    "categories": [
-      "mcp",
-      "Cloud & DevOps",
-      "AWS"
-    ],
-    "source": {
-      "name": "awesome-mcp-servers",
-      "url": "https://github.com/punkpeye/awesome-mcp-servers"
-    },
-    "ingested_at": "2026-09-16",
+    "mcp_type": "Server",
     "quality_score": 85,
+    "is_official": true,
+    "github_url": "https://github.com/github/github-mcp-server",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
@@ -153,11 +156,7 @@
       "Zed",
       "VS Code (GitHub Copilot)"
     ],
-    "install_method": "npx",
-    "github_url": "https://github.com/awslabs/mcp",
-    "is_official": true,
-    "transport": "stdio, SSE",
-    "mcp_type": "Server"
+    "install_method": "binary"
   },
   {
     "id": "d169ec03-0c61-5aeb-af5c-a5200b93c06f",
@@ -175,7 +174,11 @@
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
+    "transport": "stdio, SSE",
+    "mcp_type": "Server",
     "quality_score": 85,
+    "is_official": true,
+    "github_url": "https://github.com/cloudflare/playwright-mcp",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
@@ -185,11 +188,162 @@
       "Zed",
       "VS Code (GitHub Copilot)"
     ],
-    "install_method": "npx",
-    "github_url": "https://github.com/cloudflare/playwright-mcp",
+    "install_method": "npx"
+  },
+  {
+    "id": "00ef6e4a-f06c-5a56-94c3-488bab3ac71f",
+    "entity_type": "mcp",
+    "name": "Azure Blue Bridge MCP Server",
+    "description": "Azure Blue Bridge enables secure, seamless management and querying of Azure resources using MCP, supporting automation and zero-secret authentication.",
+    "url": "https://azure.microsoft.com",
+    "categories": [
+      "mcp",
+      "Developer Tools",
+      "Developer Tools"
+    ],
+    "source": {
+      "name": "Creati.ai",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers"
+    },
+    "ingested_at": "2026-09-16",
+    "transport": "stdio",
+    "mcp_type": "Server",
+    "quality_score": 84,
     "is_official": true,
-    "transport": "stdio, SSE",
-    "mcp_type": "Server"
+    "github_url": "https://github.com/Azure/blue-bridge",
+    "supported_clients": [
+      "Claude Desktop",
+      "Claude Code",
+      "Cursor",
+      "Continue",
+      "Cline",
+      "Zed"
+    ],
+    "install_method": "npx"
+  },
+  {
+    "id": "cd3f5d3c-b112-551c-bd21-5158d30ba41d",
+    "entity_type": "mcp",
+    "name": "Model Context Protocol (MCP) .NET Samples MCP Server",
+    "description": "Model Context Protocol (MCP) .NET Samples is an MCP server that explore MCP .NET Samples for building secure, flexible, and scalable large language model integrations and context sharing solutions.",
+    "url": "https://microsoft.com",
+    "categories": [
+      "mcp",
+      "Developer Tools",
+      "Developer Tools"
+    ],
+    "source": {
+      "name": "Creati.ai",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers"
+    },
+    "ingested_at": "2026-09-16",
+    "transport": "stdio",
+    "mcp_type": "Server",
+    "quality_score": 84,
+    "is_official": true,
+    "github_url": "https://github.com/microsoft/mcp-dotnet-samples",
+    "supported_clients": [
+      "Claude Desktop",
+      "Claude Code",
+      "Cursor",
+      "Continue",
+      "Cline",
+      "Zed"
+    ],
+    "install_method": "npx"
+  },
+  {
+    "id": "9750c15d-a06c-5958-9099-5e442ec13e65",
+    "entity_type": "mcp",
+    "name": "Minds MCP (Model Context Protocol) Server",
+    "description": "Minds MCP (Model Context Protocol) Server is an MCP server that discover Minds MCP Server, enabling seamless LLM and Minds SDK interaction through standardized resource and tool templates for enhanced AI applications.",
+    "url": "https://mindsdb.com",
+    "categories": [
+      "mcp",
+      "Developer Tools",
+      "Developer Tools"
+    ],
+    "source": {
+      "name": "Creati.ai",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers"
+    },
+    "ingested_at": "2026-09-16",
+    "transport": "stdio",
+    "mcp_type": "Server",
+    "quality_score": 84,
+    "is_official": true,
+    "github_url": "https://github.com/mindsdb/minds-mcp",
+    "supported_clients": [
+      "Claude Desktop",
+      "Claude Code",
+      "Cursor",
+      "Continue",
+      "Cline",
+      "Zed"
+    ],
+    "install_method": "pip"
+  },
+  {
+    "id": "b76d54a5-4810-5a24-86fa-0af93b140e74",
+    "entity_type": "mcp",
+    "name": "FedRAMP Compliance MCP Server",
+    "description": "FedRAMP Compliance is an MCP server that enhance AI compliance with the FedRAMP MCP Server, offering tools to query and manage security controls, supporting automation and secure assessments.",
+    "url": "https://grafana.com",
+    "categories": [
+      "mcp",
+      "Developer Tools",
+      "Developer Tools"
+    ],
+    "source": {
+      "name": "Creati.ai",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers"
+    },
+    "ingested_at": "2026-09-16",
+    "transport": "SSE",
+    "mcp_type": "Server",
+    "quality_score": 84,
+    "is_official": true,
+    "github_url": "https://github.com/grafana/hackathon-12-mcp-compliance",
+    "supported_clients": [
+      "Claude Desktop",
+      "Claude Code",
+      "Cursor",
+      "Continue",
+      "Cline",
+      "Zed"
+    ],
+    "install_method": "binary"
+  },
+  {
+    "id": "8681d926-7a43-584e-9bf1-f99b973b6cfe",
+    "entity_type": "mcp",
+    "name": "Model Context Protocol (MCP) server for Sentry MCP Server",
+    "description": "Model Context Protocol (MCP) server for Sentry is an MCP server that integrate with Sentry to retrieve error data, manage projects, and monitor application health efficiently using our MCP server.",
+    "url": "https://sentry.io",
+    "categories": [
+      "mcp",
+      "Developer Tools",
+      "Developer Tools"
+    ],
+    "source": {
+      "name": "Creati.ai",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers"
+    },
+    "ingested_at": "2026-09-16",
+    "transport": "stdio",
+    "mcp_type": "Server",
+    "quality_score": 84,
+    "is_official": true,
+    "github_url": "https://github.com/getsentry/sentry-mcp-stdio",
+    "supported_clients": [
+      "Claude Desktop",
+      "Claude Code",
+      "Cursor",
+      "Continue",
+      "Cline",
+      "Zed"
+    ],
+    "install_method": "npx"
   },
   {
     "id": "109fed08-255d-5703-aa09-74d4b67f1131",
@@ -207,7 +361,11 @@
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
+    "transport": "stdio",
+    "mcp_type": "Server",
     "quality_score": 83,
+    "is_official": true,
+    "github_url": "https://github.com/stripe/agent-toolkit",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
@@ -217,11 +375,7 @@
       "Zed",
       "VS Code (GitHub Copilot)"
     ],
-    "install_method": "npx",
-    "github_url": "https://github.com/stripe/agent-toolkit",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Server"
+    "install_method": "npx"
   },
   {
     "id": "c30eb441-6e60-55bf-829d-c6b6d0a0d14a",
@@ -239,7 +393,11 @@
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
+    "transport": "stdio",
+    "mcp_type": "Client",
     "quality_score": 83,
+    "is_official": true,
+    "github_url": "https://github.com/openai/openai-agents-python",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
@@ -249,11 +407,7 @@
       "Zed",
       "VS Code (GitHub Copilot)"
     ],
-    "install_method": "pip",
-    "github_url": "https://github.com/openai/openai-agents-python",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Client"
+    "install_method": "pip"
   },
   {
     "id": "731763e8-0a09-51c9-8335-8ddbea754b47",
@@ -271,725 +425,486 @@
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
+    "transport": "stdio, SSE",
+    "mcp_type": "Server",
     "quality_score": 83,
-    "supported_clients": [
-      "Claude Desktop",
-      "Claude Code",
-      "Cursor",
-      "Continue",
-      "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
-    ],
-    "install_method": "binary",
+    "is_official": true,
     "github_url": "https://github.com/googleapis/genai-toolbox",
-    "is_official": true,
-    "transport": "stdio, SSE",
-    "mcp_type": "Server"
+    "supported_clients": [
+      "Claude Desktop",
+      "Claude Code",
+      "Cursor",
+      "Continue",
+      "Cline",
+      "Zed",
+      "VS Code (GitHub Copilot)"
+    ],
+    "install_method": "binary"
   },
   {
-    "id": "a7aa12a1-2f65-58ce-a255-549644453241",
+    "id": "5899139b-a59c-5bdb-bd99-b7d5a77970fe",
     "entity_type": "mcp",
-    "name": "Pipedream MCP Server",
-    "description": "Pipedream's MCP integration providing AI agents with access to 2,500+ APIs through 8,000+ prebuilt tools. Manage automations, connect to services, and build workflows across hundreds of SaaS platforms through a unified MCP interface.",
-    "url": "https://pipedream.com",
+    "name": "Microsoft SQL Server MCP Server",
+    "description": "Microsoft SQL Server is an MCP server that an MCP server enabling secure, structured access to MS SQL Server for AI assistants, supporting data listing, reading, and query execution.",
+    "url": "https://github.com/RichardHan/mssql_mcp_server",
     "categories": [
       "mcp",
       "Developer Tools",
-      "Integration Platform"
+      "Developer Tools"
     ],
     "source": {
-      "name": "awesome-mcp-servers",
+      "name": "Creati.ai",
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
-    "quality_score": 81,
+    "transport": "stdio",
+    "mcp_type": "Server",
+    "quality_score": 82,
+    "is_official": false,
+    "github_url": "https://github.com/RichardHan/mssql_mcp_server",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
       "Cursor",
       "Continue",
       "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
+      "Zed"
     ],
-    "install_method": "npx",
-    "github_url": "https://github.com/PipedreamHQ/pipedream/tree/master/modelcontextprotocol",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Server"
+    "install_method": "pip"
   },
   {
-    "id": "91f312a0-0f9a-51f0-97ec-130a533e6994",
+    "id": "0245574b-1aac-5e0a-8874-ec4a8474ca0e",
     "entity_type": "mcp",
-    "name": "MindsDB MCP Server",
-    "description": "MindsDB MCP server that connects and unifies data across various platforms and databases through a single MCP interface. Enables AI agents to query multiple data sources using SQL, create ML models, and automate data pipelines.",
-    "url": "https://mindsdb.com",
+    "name": "MetaMCP MCP Server",
+    "description": "MetaMCP MCP Server centralizes and routes multiple MCPs, supporting dynamic configs and multi-workspace management for enterprise use.",
+    "url": "https://github.com/metatool-ai/mcp-server-metamcp",
     "categories": [
       "mcp",
       "Developer Tools",
-      "Data Integration Platform"
+      "Developer Tools"
     ],
     "source": {
-      "name": "awesome-mcp-servers",
+      "name": "Creati.ai",
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
-    "quality_score": 81,
+    "transport": "stdio",
+    "mcp_type": "Server",
+    "quality_score": 82,
+    "is_official": false,
+    "github_url": "https://github.com/metatool-ai/mcp-server-metamcp",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
       "Cursor",
       "Continue",
       "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
+      "Zed"
     ],
-    "install_method": "pip",
-    "github_url": "https://github.com/mindsdb/mindsdb",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Server"
+    "install_method": "npx"
   },
   {
-    "id": "428cba8c-351e-5e03-9428-c43fc1801987",
+    "id": "8a522ddf-3c81-55a5-b7e5-252a97be0e8d",
     "entity_type": "mcp",
-    "name": "Anyquery MCP Server",
-    "description": "Single-binary MCP server that lets AI agents query 40+ apps and databases using SQL. Connects to PostgreSQL, MySQL, SQLite-compatible databases and cloud services like Notion, Airtable, and GitHub through a unified SQL interface.",
-    "url": "https://anyquery.dev",
+    "name": "Think Tool MCP Server",
+    "description": "Think Tool is an MCP server that enhance AI performance with the Think Tool MCP Server, providing structured reasoning, policy adherence, and multi-step problem-solving capabilities.",
+    "url": "https://github.com/PhillipRt/think-mcp-server",
     "categories": [
       "mcp",
       "Developer Tools",
-      "Data Query Engine"
+      "Developer Tools"
     ],
     "source": {
-      "name": "awesome-mcp-servers",
+      "name": "Creati.ai",
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
-    "quality_score": 81,
+    "transport": "stdio",
+    "mcp_type": "Server",
+    "quality_score": 82,
+    "is_official": false,
+    "github_url": "https://github.com/PhillipRt/think-mcp-server",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
       "Cursor",
       "Continue",
       "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
+      "Zed"
     ],
-    "install_method": "binary",
-    "github_url": "https://github.com/julien040/anyquery",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Server"
+    "install_method": "npx"
   },
   {
-    "id": "e56bc98a-1bfc-5833-a954-6a1970a73e1c",
+    "id": "fee7c25a-2a3f-5e73-9eb2-91380186fa30",
     "entity_type": "mcp",
-    "name": "Hub MCP Server",
-    "description": "Official Docker MCP server that official MCP server to interact with Docker Hub, providing access to repositories, hub search and Docker Hardened Images.",
-    "url": "https://docker.com",
+    "name": "OpenAPI Tool Servers MCP Server",
+    "description": "OpenAPI Tool Servers is an MCP server that explore reference implementations of OpenAPI servers to seamlessly integrate external tools into AI workflows with secure, standard REST APIs.",
+    "url": "https://docs.openwebui.com/openapi-servers",
     "categories": [
       "mcp",
       "Developer Tools",
-      "Software Engineering Utilities"
+      "Developer Tools"
     ],
     "source": {
-      "name": "awesome-mcp-servers",
+      "name": "Creati.ai",
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
-    "quality_score": 80,
+    "transport": "stdio",
+    "mcp_type": "Server",
+    "quality_score": 82,
+    "is_official": false,
+    "github_url": "https://github.com/open-webui/openapi-servers",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
       "Cursor",
       "Continue",
       "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
+      "Zed"
     ],
-    "install_method": "npx",
-    "github_url": "https://github.com/docker/hub-mcp",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Server"
+    "install_method": "pip"
   },
   {
-    "id": "478500df-6dce-5873-a6b6-689bee73d616",
+    "id": "e370c542-e043-5188-a1a6-f40dfc35c587",
     "entity_type": "mcp",
-    "name": "Markitdown MCP Server",
-    "description": "Official Microsoft MCP server that mCP tool access to MarkItDown -- a library that converts many file formats (local or remote) to Markdown for LLM consumption.",
-    "url": "https://microsoft.com",
-    "categories": [
-      "mcp",
-      "File Systems",
-      "File Storage & Local Filesystem"
-    ],
-    "source": {
-      "name": "awesome-mcp-servers",
-      "url": "https://github.com/punkpeye/awesome-mcp-servers"
-    },
-    "ingested_at": "2026-09-16",
-    "quality_score": 80,
-    "supported_clients": [
-      "Claude Desktop",
-      "Claude Code",
-      "Cursor",
-      "Continue",
-      "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
-    ],
-    "install_method": "pip",
-    "github_url": "https://github.com/microsoft/markitdown",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Server"
-  },
-  {
-    "id": "a6c7b376-eb82-55be-a907-92f2039e91d4",
-    "entity_type": "mcp",
-    "name": "Continue (VS Code / JetBrains)",
-    "description": "Open-source AI code assistant for VS Code and JetBrains with MCP client support. Continue connects to MCP servers to extend its capabilities, supporting custom tools, data sources, and multi-model AI assistance.",
-    "url": "https://continue.dev",
+    "name": "MCPEngine MCP Server",
+    "description": "MCPEngine is a robust, OAuth-enabled MCP platform designed for enterprise data sharing, tool hosting, and seamless LLM integration.",
+    "url": "https://github.com/featureform/mcp-engine",
     "categories": [
       "mcp",
       "Developer Tools",
-      "IDE Extension"
+      "Developer Tools"
     ],
     "source": {
-      "name": "awesome-mcp-clients",
+      "name": "Creati.ai",
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
-    "quality_score": 80,
+    "transport": "stdio",
+    "mcp_type": "Server",
+    "quality_score": 82,
+    "is_official": false,
+    "github_url": "https://github.com/featureform/mcp-engine",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
       "Cursor",
       "Continue",
       "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
+      "Zed"
     ],
-    "install_method": "npx",
-    "github_url": "https://github.com/continuedev/continue",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Client"
+    "install_method": "pip"
   },
   {
-    "id": "6a27da01-fe31-5e44-adbb-e095fddc21c2",
+    "id": "e3440104-eb51-5cb0-9caf-952d67cf225f",
     "entity_type": "mcp",
-    "name": "Docker MCP Server",
-    "description": "Official Docker MCP server providing AI agents with container management capabilities. Build, run, and manage Docker containers, images, and compose configurations through natural language commands.",
-    "url": "https://www.docker.com",
+    "name": "HowToCook MCP Server",
+    "description": "HowToCook is an MCP server that utilize the HowToCook MCP server for personalized recipe suggestions, meal planning, and dietary management with MCP-compatible AI assistants.",
+    "url": "https://www.npmjs.com/package/howtocook-mcp",
     "categories": [
       "mcp",
       "Developer Tools",
-      "Containerization"
+      "Developer Tools"
     ],
     "source": {
-      "name": "awesome-mcp-servers",
+      "name": "Creati.ai",
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
-    "quality_score": 80,
-    "supported_clients": [
-      "Claude Desktop",
-      "Claude Code",
-      "Cursor",
-      "Continue",
-      "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
-    ],
-    "install_method": "binary",
-    "github_url": "https://github.com/docker/docker-mcp",
-    "is_official": true,
     "transport": "stdio",
-    "mcp_type": "Server"
-  },
-  {
-    "id": "4a5127a8-b02c-5bb6-ac61-6d2e6def0399",
-    "entity_type": "mcp",
-    "name": "Brave Search MCP Server",
-    "description": "MCP server integrating Brave Search API for web and local search capabilities. Provides AI models with access to privacy-focused web search results, local business information, and news through Brave's search engine.",
-    "url": "https://brave.com/search",
-    "categories": [
-      "mcp",
-      "Search & Research",
-      "Web Search"
-    ],
-    "source": {
-      "name": "Official MCP GitHub (archived)",
-      "url": "https://github.com/punkpeye/awesome-mcp-servers"
-    },
-    "ingested_at": "2026-09-16",
-    "quality_score": 80,
+    "mcp_type": "Server",
+    "quality_score": 82,
+    "is_official": false,
+    "github_url": "https://github.com/worryzyy/HowToCook-mcp",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
       "Cursor",
       "Continue",
       "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
+      "Zed"
     ],
-    "install_method": "npx",
-    "github_url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Server"
+    "install_method": "npx"
   },
   {
-    "id": "a23a8641-3919-55f9-a308-b15805a3d08c",
+    "id": "0a31cbf1-8872-5c39-a507-feb2055d00d8",
     "entity_type": "mcp",
-    "name": "Azure MCP Server",
-    "description": "Official Microsoft Azure MCP server enabling AI agents to manage Azure cloud resources. Supports operations across Azure Storage, Azure AI, Azure DevOps, and other Azure services through the MCP protocol.",
-    "url": "https://azure.microsoft.com",
-    "categories": [
-      "mcp",
-      "Cloud & DevOps",
-      "Microsoft Azure"
-    ],
-    "source": {
-      "name": "awesome-mcp-servers",
-      "url": "https://github.com/punkpeye/awesome-mcp-servers"
-    },
-    "ingested_at": "2026-09-16",
-    "quality_score": 80,
-    "supported_clients": [
-      "Claude Desktop",
-      "Claude Code",
-      "Cursor",
-      "Continue",
-      "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
-    ],
-    "install_method": "npx",
-    "github_url": "https://github.com/Azure/azure-mcp",
-    "is_official": true,
-    "transport": "stdio, SSE",
-    "mcp_type": "Server"
-  },
-  {
-    "id": "43b3ca36-f308-579a-8d57-76b888158f1e",
-    "entity_type": "mcp",
-    "name": "Claude Desktop",
-    "description": "Anthropic's desktop application for Claude AI with built-in MCP client support. Connects to any MCP server via stdio or SSE transport, enabling Claude to interact with local tools, databases, and services configured in the client.",
-    "url": "https://claude.ai",
-    "categories": [
-      "mcp",
-      "AI/ML",
-      "AI Assistant"
-    ],
-    "source": {
-      "name": "Official MCP GitHub",
-      "url": "https://github.com/punkpeye/awesome-mcp-servers"
-    },
-    "ingested_at": "2026-09-16",
-    "quality_score": 79,
-    "supported_clients": [
-      "Claude Desktop",
-      "Claude Code",
-      "Cursor",
-      "Continue",
-      "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
-    ],
-    "install_method": "npx",
-    "github_url": "https://github.com/anthropics/claude-desktop",
-    "is_official": true,
-    "transport": "SSE",
-    "mcp_type": "Client"
-  },
-  {
-    "id": "cf462c40-0ffb-53d5-b169-a1cf8df2f715",
-    "entity_type": "mcp",
-    "name": "Next Devtools MCP Server",
-    "description": "Official Vercel MCP server that official Next.js MCP server for coding agents. Provides runtime diagnostics, route inspection, dev server logs, docs search, and upgrade guides. Requires Next.js 16+ dev server for full runtime features.",
-    "url": "https://vercel.com",
+    "name": "MCP Code Executor MCP Server",
+    "description": "MCP Code Executor is an MCP server that enable LLMs to run Python code securely in custom Conda environments with the MCP Code Executor, perfect for AI, data analysis, and automation tasks.",
+    "url": "https://github.com/bazinga012/mcp_code_executor",
     "categories": [
       "mcp",
       "Developer Tools",
-      "Software Engineering Utilities"
+      "Developer Tools"
     ],
     "source": {
-      "name": "awesome-mcp-servers",
+      "name": "Creati.ai",
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
-    "quality_score": 79,
-    "supported_clients": [
-      "Claude Desktop",
-      "Claude Code",
-      "Cursor",
-      "Continue",
-      "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
-    ],
-    "install_method": "npx",
-    "github_url": "https://github.com/vercel/next-devtools-mcp",
-    "is_official": true,
     "transport": "stdio",
-    "mcp_type": "Server"
-  },
-  {
-    "id": "28875b99-c193-56c8-b47c-c397ff4bcf65",
-    "entity_type": "mcp",
-    "name": "Terraform MCP Server",
-    "description": "Official HashiCorp Terraform MCP server enabling AI agents to interact with Terraform configurations. Plan and apply infrastructure changes, query state, manage workspaces, and access Terraform Registry providers and modules.",
-    "url": "https://www.terraform.io",
-    "categories": [
-      "mcp",
-      "Cloud & DevOps",
-      "Infrastructure as Code"
-    ],
-    "source": {
-      "name": "awesome-mcp-servers",
-      "url": "https://github.com/punkpeye/awesome-mcp-servers"
-    },
-    "ingested_at": "2026-09-16",
-    "quality_score": 79,
+    "mcp_type": "Server",
+    "quality_score": 82,
+    "is_official": false,
+    "github_url": "https://github.com/bazinga012/mcp_code_executor",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
       "Cursor",
       "Continue",
       "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
+      "Zed"
     ],
-    "install_method": "binary",
-    "github_url": "https://github.com/hashicorp/terraform-mcp-server",
-    "is_official": true,
-    "transport": "stdio, SSE",
-    "mcp_type": "Server"
+    "install_method": "npx"
   },
   {
-    "id": "2807d25d-d807-5b71-ac34-d09c900530aa",
+    "id": "d6240970-0939-59a6-88c9-873319bee00a",
     "entity_type": "mcp",
-    "name": "MongoDB MCP Server",
-    "description": "Official MongoDB MCP server enabling AI agents to interact with MongoDB Atlas clusters. Provides tools for CRUD operations, aggregation pipelines, index management, and collection administration through the standard MCP protocol.",
-    "url": "https://www.mongodb.com",
-    "categories": [
-      "mcp",
-      "Databases",
-      "NoSQL Databases"
-    ],
-    "source": {
-      "name": "awesome-mcp-servers",
-      "url": "https://github.com/punkpeye/awesome-mcp-servers"
-    },
-    "ingested_at": "2026-09-16",
-    "quality_score": 79,
-    "supported_clients": [
-      "Claude Desktop",
-      "Claude Code",
-      "Cursor",
-      "Continue",
-      "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
-    ],
-    "install_method": "npx",
-    "github_url": "https://github.com/mongodb/mongodb-mcp-server",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Server"
-  },
-  {
-    "id": "ff45e45e-555f-5ad0-8c83-fcc201a6433f",
-    "entity_type": "mcp",
-    "name": "Sentry MCP Server",
-    "description": "Official Sentry MCP server enabling AI agents to access error tracking and performance monitoring data. Query issues, view error details, analyze stack traces, and manage error resolution workflows through Sentry's platform.",
-    "url": "https://sentry.io",
+    "name": "Model Context Protocol (MCP) server for Deepseek R1 MCP Server",
+    "description": "Model Context Protocol (MCP) server for Deepseek R1 is an MCP server that implement the Deepseek R1 MCP server to enable seamless integration of Claude Desktop with DeepSeek's advanced language model for AI-driven applications.",
+    "url": "https://github.com/66julienmartin/MCP-server-Deepseek_R1",
     "categories": [
       "mcp",
       "Developer Tools",
-      "Error Monitoring"
+      "Developer Tools"
     ],
     "source": {
-      "name": "awesome-mcp-servers",
+      "name": "Creati.ai",
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
-    "quality_score": 79,
+    "transport": "stdio",
+    "mcp_type": "Server",
+    "quality_score": 82,
+    "is_official": false,
+    "github_url": "https://github.com/66julienmartin/MCP-server-Deepseek_R1",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
       "Cursor",
       "Continue",
       "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
+      "Zed"
     ],
-    "install_method": "npx",
-    "github_url": "https://github.com/getsentry/sentry-mcp",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Server"
+    "install_method": "npx"
   },
   {
-    "id": "add47819-0f95-52f6-a058-34b42d3919e9",
+    "id": "5171c8e0-a086-5040-a7ef-48c338e883e6",
     "entity_type": "mcp",
-    "name": "Hugging Face MCP Server",
-    "description": "Official Hugging Face MCP server providing AI agents with access to the Hugging Face ecosystem. Search models, datasets, and Spaces; run inference on hosted models; manage repositories; and interact with the Hugging Face community.",
-    "url": "https://huggingface.co",
-    "categories": [
-      "mcp",
-      "AI/ML",
-      "Model Hub"
-    ],
-    "source": {
-      "name": "awesome-mcp-servers",
-      "url": "https://github.com/punkpeye/awesome-mcp-servers"
-    },
-    "ingested_at": "2026-09-16",
-    "quality_score": 79,
-    "supported_clients": [
-      "Claude Desktop",
-      "Claude Code",
-      "Cursor",
-      "Continue",
-      "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
-    ],
-    "install_method": "pip",
-    "github_url": "https://github.com/huggingface/huggingface-mcp-server",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Server"
-  },
-  {
-    "id": "cb194302-6576-5c77-aa19-e0c2040dd7b1",
-    "entity_type": "mcp",
-    "name": "Shopify MCP Server",
-    "description": "Official Shopify MCP server enabling AI agents to manage Shopify stores. Create and update products, manage orders, handle inventory, configure store settings, and interact with Shopify's commerce platform through the Admin API.",
-    "url": "https://www.shopify.com",
-    "categories": [
-      "mcp",
-      "E-Commerce",
-      "Online Retail Platform"
-    ],
-    "source": {
-      "name": "awesome-mcp-servers",
-      "url": "https://github.com/punkpeye/awesome-mcp-servers"
-    },
-    "ingested_at": "2026-09-16",
-    "quality_score": 79,
-    "supported_clients": [
-      "Claude Desktop",
-      "Claude Code",
-      "Cursor",
-      "Continue",
-      "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
-    ],
-    "install_method": "npx",
-    "github_url": "https://github.com/Shopify/shopify-mcp",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Server"
-  },
-  {
-    "id": "98df86eb-8267-52ae-9edd-4200ae292eb1",
-    "entity_type": "mcp",
-    "name": "Neon MCP Server",
-    "description": "Official MCP server for Neon serverless PostgreSQL. Enables AI agents to create databases, run SQL queries, manage branches, and perform schema migrations on Neon's serverless Postgres platform with instant provisioning and auto-scaling.",
-    "url": "https://neon.tech",
-    "categories": [
-      "mcp",
-      "Databases",
-      "Serverless PostgreSQL"
-    ],
-    "source": {
-      "name": "awesome-mcp-servers",
-      "url": "https://github.com/punkpeye/awesome-mcp-servers"
-    },
-    "ingested_at": "2026-09-16",
-    "quality_score": 79,
-    "supported_clients": [
-      "Claude Desktop",
-      "Claude Code",
-      "Cursor",
-      "Continue",
-      "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
-    ],
-    "install_method": "npx",
-    "github_url": "https://github.com/neondatabase/mcp-server-neon",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Server"
-  },
-  {
-    "id": "8e5c85f1-aaac-5dcf-9eaf-f0e79213adbc",
-    "entity_type": "mcp",
-    "name": "Linear MCP Server",
-    "description": "Official Linear MCP server enabling AI agents to manage issues, projects, and workflows in Linear. Create and update issues, manage sprints, query backlogs, and integrate Linear's project management capabilities into AI workflows.",
-    "url": "https://linear.app",
+    "name": "Automcp Server",
+    "description": "Automcp Server is an MCP server that automcp transforms AI agent frameworks into MCP servers, enabling standardized, scalable, and easy deployment for AI-powered applications.",
+    "url": "https://auto-mcp.com",
     "categories": [
       "mcp",
       "Developer Tools",
-      "Project Management"
+      "Developer Tools"
     ],
     "source": {
-      "name": "awesome-mcp-servers",
+      "name": "Creati.ai",
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
-    "quality_score": 79,
+    "transport": "stdio",
+    "mcp_type": "Server",
+    "quality_score": 82,
+    "is_official": false,
+    "github_url": "https://github.com/NapthaAI/automcp",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
       "Cursor",
       "Continue",
       "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
+      "Zed"
     ],
-    "install_method": "npx",
-    "github_url": "https://github.com/linear/linear-mcp-server",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Server"
+    "install_method": "pip"
   },
   {
-    "id": "e094849d-7dd1-5687-833b-409639e63ac8",
+    "id": "8a869b41-ba0c-54a6-b171-f9fe2191eb40",
     "entity_type": "mcp",
-    "name": "E2B MCP Server",
-    "description": "Official E2B MCP server providing secure, sandboxed code execution environments in the cloud. Enables AI agents to run Python, JavaScript, and other code in isolated environments with full filesystem access, package installation, and persistent sessions.",
-    "url": "https://e2b.dev",
+    "name": "CodeQL MCP Server",
+    "description": "CodeQL is an MCP server that a server that wraps CodeQL query capabilities, enabling tools and AI agents to perform structured code analysis, query execution, and decoding through MCP protocol.",
+    "url": "https://github.com/JordyZomer/codeql-mcp",
     "categories": [
       "mcp",
       "Developer Tools",
-      "Cloud Sandboxes"
+      "Developer Tools"
     ],
     "source": {
-      "name": "awesome-mcp-servers",
+      "name": "Creati.ai",
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
-    "quality_score": 79,
+    "transport": "stdio",
+    "mcp_type": "Server",
+    "quality_score": 82,
+    "is_official": false,
+    "github_url": "https://github.com/JordyZomer/codeql-mcp",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
       "Cursor",
       "Continue",
       "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
+      "Zed"
     ],
-    "install_method": "npx",
-    "github_url": "https://github.com/e2b-dev/e2b-mcp-server",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Server"
+    "install_method": "pip"
   },
   {
-    "id": "736429ad-bf1c-5f4f-911d-9a5466e2d63b",
+    "id": "9bd6f64e-ae69-5f27-ab1e-d57033a3b324",
     "entity_type": "mcp",
-    "name": "Grafana MCP Server",
-    "description": "Official Grafana MCP server enabling AI agents to interact with Grafana's observability platform. Query dashboards, search panels, access Prometheus metrics, and manage alerting through MCP, making infrastructure monitoring AI-accessible.",
-    "url": "https://grafana.com",
+    "name": "Model Context Protocol server for Daipendency MCP Server",
+    "description": "Model Context Protocol server for Daipendency is an MCP server that implement and manage dependency data exchange seamlessly with Daipendency's MCP server, supporting TypeScript and JavaScript integrations.",
+    "url": "https://github.com/daipendency/daipendency-mcp",
     "categories": [
       "mcp",
-      "Monitoring & Observability",
-      "Data Visualization & Monitoring"
+      "Developer Tools",
+      "Developer Tools"
     ],
     "source": {
-      "name": "awesome-mcp-servers",
+      "name": "Creati.ai",
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
-    "quality_score": 79,
+    "transport": "stdio",
+    "mcp_type": "Server",
+    "quality_score": 82,
+    "is_official": false,
+    "github_url": "https://github.com/daipendency/daipendency-mcp",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
       "Cursor",
       "Continue",
       "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
+      "Zed"
     ],
-    "install_method": "binary",
-    "github_url": "https://github.com/grafana/mcp-grafana",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Server"
+    "install_method": "npx"
   },
   {
-    "id": "1b981f54-c30e-5038-ba06-a6107901e855",
+    "id": "92e17567-33c6-5854-90c6-6cdc2cabfe80",
     "entity_type": "mcp",
-    "name": "Exa MCP Server",
-    "description": "Official Exa MCP server providing AI-native search capabilities. Exa's neural search engine finds semantically similar content across the web, offering more relevant results than traditional keyword search for AI agent workflows.",
-    "url": "https://exa.ai",
+    "name": "thinking tool for Claude Desktop/MCP clients using Deepseek reasoner MCP Client",
+    "description": "Thinking tool for Claude Desktop/MCP clients using Deepseek reasoner is an MCP client that integrate Deepseek reasoning with Claude Desktop using this MCP to extract, analyze, and visualize AI decision chains efficiently.",
+    "url": "https://github.com/mattzcarey/mcp-thinking",
     "categories": [
       "mcp",
-      "Search & Research",
-      "AI-Powered Search"
+      "Developer Tools",
+      "Developer Tools"
     ],
     "source": {
-      "name": "awesome-mcp-servers",
+      "name": "Creati.ai",
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
-    "quality_score": 79,
+    "transport": "stdio",
+    "mcp_type": "Client",
+    "quality_score": 82,
+    "is_official": false,
+    "github_url": "https://github.com/mattzcarey/mcp-thinking",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
       "Cursor",
       "Continue",
       "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
+      "Zed"
     ],
-    "install_method": "npx",
-    "github_url": "https://github.com/exa-labs/exa-mcp-server",
-    "is_official": true,
-    "transport": "stdio",
-    "mcp_type": "Server"
+    "install_method": "npx"
   },
   {
-    "id": "4074f103-18ea-5574-90ae-8d67ae8df6b3",
+    "id": "117319e1-6706-5d32-a74d-4edb2fad0218",
     "entity_type": "mcp",
-    "name": "Browserbase MCP Server",
-    "description": "Official MCP server for Browserbase cloud browser infrastructure. Provides AI agents with access to managed, headless browser sessions in the cloud for reliable web automation, scraping, and testing without managing browser instances locally.",
-    "url": "https://www.browserbase.com",
+    "name": "Model Context Protocol (MCP) for Emacs MCP Server",
+    "description": "Model Context Protocol (MCP) for Emacs is an MCP server that leverage Emacs with MCP for structured communication, resource management, and server control of MCP servers within your development environment.",
+    "url": "https://github.com/lizqwerscott/mcp.el",
     "categories": [
       "mcp",
-      "Browser Automation",
-      "Cloud Browser Infrastructure"
+      "Developer Tools",
+      "Developer Tools"
     ],
     "source": {
-      "name": "awesome-mcp-servers",
+      "name": "Creati.ai",
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
     "ingested_at": "2026-09-16",
-    "quality_score": 79,
+    "transport": "stdio",
+    "mcp_type": "Server",
+    "quality_score": 82,
+    "is_official": false,
+    "github_url": "https://github.com/lizqwerscott/mcp.el",
     "supported_clients": [
       "Claude Desktop",
       "Claude Code",
       "Cursor",
       "Continue",
       "Cline",
-      "Zed",
-      "VS Code (GitHub Copilot)"
+      "Zed"
     ],
-    "install_method": "npx",
-    "github_url": "https://github.com/browserbase/mcp-server-browserbase",
-    "is_official": true,
-    "transport": "stdio, SSE",
-    "mcp_type": "Server"
+    "install_method": "npx"
+  },
+  {
+    "id": "8eb62c14-d0f3-5244-b715-51ea23932917",
+    "entity_type": "mcp",
+    "name": "MCP Client for Node.js MCP Client",
+    "description": "MCP Client for Node.js is an MCP client that a developer-friendly MCP client for Node.js to connect, communicate, and automate MCP server operations efficiently.",
+    "url": "https://glama.ai/mcp/clients",
+    "categories": [
+      "mcp",
+      "Developer Tools",
+      "Developer Tools"
+    ],
+    "source": {
+      "name": "Creati.ai",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers"
+    },
+    "ingested_at": "2026-09-16",
+    "transport": "stdio",
+    "mcp_type": "Client",
+    "quality_score": 82,
+    "is_official": false,
+    "github_url": "https://github.com/punkpeye/mcp-client",
+    "supported_clients": [
+      "Claude Desktop",
+      "Claude Code",
+      "Cursor",
+      "Continue",
+      "Cline",
+      "Zed"
+    ],
+    "install_method": "npx"
+  },
+  {
+    "id": "c82e86d2-8442-5aa7-ac91-3ba6d488a4c3",
+    "entity_type": "mcp",
+    "name": "MCP Client as a Durable Object MCP Client",
+    "description": "MCP Client as a Durable Object is an MCP client that implement reliable, stateful MCP client using durable objects for scalable cloud communication and automation in distributed systems.",
+    "url": "https://github.com/Dhravya/mcp-durable-object-client",
+    "categories": [
+      "mcp",
+      "Developer Tools",
+      "Developer Tools"
+    ],
+    "source": {
+      "name": "Creati.ai",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers"
+    },
+    "ingested_at": "2026-09-16",
+    "transport": "stdio",
+    "mcp_type": "Client",
+    "quality_score": 82,
+    "is_official": false,
+    "github_url": "https://github.com/Dhravya/mcp-durable-object-client",
+    "supported_clients": [
+      "Claude Desktop",
+      "Claude Code",
+      "Cursor",
+      "Continue",
+      "Cline",
+      "Zed"
+    ],
+    "install_method": "npx"
   },
   {
     "id": "a28fff54-72c5-581e-939c-248551cab09e",
@@ -1007,16 +922,16 @@
       "url": "https://openai.com/gpt-4o"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "OpenAI",
     "api_available": true,
     "open_source": false,
-    "release_date": "2024-05",
-    "context_window": "128k",
     "modalities": [
       "text",
       "image",
       "audio"
     ],
-    "provider": "OpenAI",
+    "context_window": "128k",
     "license": "Proprietary"
   },
   {
@@ -1035,15 +950,15 @@
       "url": "https://anthropic.com/claude"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-06",
+    "provider": "Anthropic",
     "api_available": true,
     "open_source": false,
-    "release_date": "2024-06",
-    "context_window": "200k",
     "modalities": [
       "text",
       "image"
     ],
-    "provider": "Anthropic",
+    "context_window": "200k",
     "license": "Proprietary"
   },
   {
@@ -1062,10 +977,10 @@
       "url": "https://deepmind.google/gemini"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "Google DeepMind",
     "api_available": true,
     "open_source": false,
-    "release_date": "2024-05",
-    "context_window": "2M",
     "modalities": [
       "text",
       "image",
@@ -1073,7 +988,7 @@
       "video",
       "code"
     ],
-    "provider": "Google DeepMind",
+    "context_window": "2M",
     "license": "Proprietary"
   },
   {
@@ -1092,15 +1007,15 @@
       "url": "https://llama.meta.com"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-07",
+    "provider": "Meta",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-07",
-    "context_window": "128k",
     "modalities": [
       "text",
       "code"
     ],
-    "provider": "Meta",
+    "context_window": "128k",
     "license": "Llama 3.1 Community License"
   },
   {
@@ -1119,15 +1034,15 @@
       "url": "https://mistral.ai"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-07",
+    "provider": "Mistral AI",
     "api_available": true,
     "open_source": false,
-    "release_date": "2024-07",
-    "context_window": "128k",
     "modalities": [
       "text",
       "code"
     ],
-    "provider": "Mistral AI",
+    "context_window": "128k",
     "license": "Mistral Research License"
   },
   {
@@ -1146,15 +1061,15 @@
       "url": "https://qwenlm.github.io"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-09",
+    "provider": "Alibaba Cloud",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-09",
-    "context_window": "128k",
     "modalities": [
       "text",
       "code"
     ],
-    "provider": "Alibaba Cloud",
+    "context_window": "128k",
     "license": "Apache-2.0"
   },
   {
@@ -1173,15 +1088,15 @@
       "url": "https://ai.google.dev/gemma"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-06",
+    "provider": "Google",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-06",
-    "context_window": "8k",
     "modalities": [
       "text",
       "code"
     ],
-    "provider": "Google",
+    "context_window": "8k",
     "license": "Gemma Terms of Use"
   },
   {
@@ -1200,15 +1115,15 @@
       "url": "https://deepseek.com"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-12",
+    "provider": "DeepSeek",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-12",
-    "context_window": "128k",
     "modalities": [
       "text",
       "code"
     ],
-    "provider": "DeepSeek",
+    "context_window": "128k",
     "license": "MIT"
   },
   {
@@ -1227,15 +1142,15 @@
       "url": "https://azure.microsoft.com"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-04",
+    "provider": "Microsoft",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-04",
-    "context_window": "128k",
     "modalities": [
       "text",
       "code"
     ],
-    "provider": "Microsoft",
+    "context_window": "128k",
     "license": "MIT"
   },
   {
@@ -1254,14 +1169,14 @@
       "url": "https://cohere.com/command"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-04",
+    "provider": "Cohere",
     "api_available": true,
     "open_source": false,
-    "release_date": "2024-04",
-    "context_window": "128k",
     "modalities": [
       "text"
     ],
-    "provider": "Cohere",
+    "context_window": "128k",
     "license": "Proprietary"
   },
   {
@@ -1280,15 +1195,15 @@
       "url": "https://stability.ai"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-10",
+    "provider": "Stability AI",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-10",
-    "context_window": "N/A",
     "modalities": [
       "text",
       "image"
     ],
-    "provider": "Stability AI",
+    "context_window": "N/A",
     "license": "Stability Community License"
   },
   {
@@ -1307,15 +1222,15 @@
       "url": "https://github.com/openai/whisper"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2023-11",
+    "provider": "OpenAI",
     "api_available": true,
     "open_source": true,
-    "release_date": "2023-11",
-    "context_window": "30s chunks",
     "modalities": [
       "audio",
       "text"
     ],
-    "provider": "OpenAI",
+    "context_window": "30s chunks",
     "license": "MIT"
   },
   {
@@ -1334,14 +1249,14 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "Qwen",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "Qwen",
     "license": "Open-Source"
   },
   {
@@ -1360,14 +1275,14 @@
       "url": "https://huggingface.co/openai-community/gpt2"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "openai-community",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "openai-community",
     "license": "Open-Source"
   },
   {
@@ -1386,14 +1301,14 @@
       "url": "https://huggingface.co/trl-internal-testing/tiny-Qwen2ForCausalLM-2.5"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "trl-internal-testing",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "trl-internal-testing",
     "license": "Open-Source"
   },
   {
@@ -1412,14 +1327,14 @@
       "url": "https://huggingface.co/Qwen/Qwen3-8B"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "Qwen",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "Qwen",
     "license": "Open-Source"
   },
   {
@@ -1438,14 +1353,14 @@
       "url": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "unsloth",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "unsloth",
     "license": "Open-Source"
   },
   {
@@ -1464,14 +1379,14 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "Qwen",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "Qwen",
     "license": "Open-Source"
   },
   {
@@ -1490,14 +1405,14 @@
       "url": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "nvidia",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "nvidia",
     "license": "Open-Source"
   },
   {
@@ -1516,14 +1431,14 @@
       "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "Qwen",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "Qwen",
     "license": "Open-Source"
   },
   {
@@ -1542,14 +1457,14 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "Qwen",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "Qwen",
     "license": "Open-Source"
   },
   {
@@ -1568,14 +1483,14 @@
       "url": "https://huggingface.co/facebook/opt-125m"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "facebook",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "facebook",
     "license": "Open-Source"
   },
   {
@@ -1594,14 +1509,14 @@
       "url": "https://huggingface.co/farbodtavakkoli/OTel-2.0-LLM-31B-IT"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "farbodtavakkoli",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "farbodtavakkoli",
     "license": "Open-Source"
   },
   {
@@ -1620,14 +1535,14 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "Qwen",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "Qwen",
     "license": "Open-Source"
   },
   {
@@ -1646,14 +1561,14 @@
       "url": "https://huggingface.co/Qwen/Qwen3-4B"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "Qwen",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "Qwen",
     "license": "Open-Source"
   },
   {
@@ -1672,14 +1587,14 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "meta-llama",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "meta-llama",
     "license": "Open-Source"
   },
   {
@@ -1698,14 +1613,14 @@
       "url": "https://huggingface.co/openai/gpt-oss-20b"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "openai",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "openai",
     "license": "Open-Source"
   },
   {
@@ -1724,14 +1639,14 @@
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "meta-llama",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "meta-llama",
     "license": "Open-Source"
   },
   {
@@ -1750,14 +1665,14 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "Qwen",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "Qwen",
     "license": "Open-Source"
   },
   {
@@ -1776,14 +1691,14 @@
       "url": "https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "ornith-ai",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "ornith-ai",
     "license": "Open-Source"
   },
   {
@@ -1802,14 +1717,14 @@
       "url": "https://huggingface.co/openai/gpt-oss-120b"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "openai",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "openai",
     "license": "Open-Source"
   },
   {
@@ -1828,14 +1743,14 @@
       "url": "https://huggingface.co/Qwen/Qwen3-32B"
     },
     "ingested_at": "2026-09-16",
+    "release_date": "2024-05",
+    "provider": "Qwen",
     "api_available": true,
     "open_source": true,
-    "release_date": "2024-05",
     "modalities": [
       "text"
     ],
     "context_window": "32k",
-    "provider": "Qwen",
     "license": "Open-Source"
   },
   {
@@ -1854,16 +1769,16 @@
       "url": "https://anthropic.com"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "San Francisco, CA",
+    "industry_sector": "AI Safety & Foundation Models",
     "notable_products": [
       "Claude 3.5 Sonnet",
       "Claude.ai",
       "Model Context Protocol",
       "Claude Code"
     ],
-    "employee_count": "500-1000",
-    "industry_sector": "AI Safety & Foundation Models",
     "funding_stage": "Series E ($7B+)",
-    "headquarters": "San Francisco, CA",
+    "employee_count": "500-1000",
     "founding_year": 2021
   },
   {
@@ -1882,6 +1797,8 @@
       "url": "https://openai.com"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "San Francisco, CA",
+    "industry_sector": "Artificial General Intelligence",
     "notable_products": [
       "ChatGPT",
       "GPT-4o",
@@ -1889,10 +1806,8 @@
       "Sora",
       "OpenAI o1"
     ],
-    "employee_count": "1000-5000",
-    "industry_sector": "Artificial General Intelligence",
     "funding_stage": "Private ($150B+ valuation)",
-    "headquarters": "San Francisco, CA",
+    "employee_count": "1000-5000",
     "founding_year": 2015
   },
   {
@@ -1911,16 +1826,16 @@
       "url": "https://deepmind.google"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "London, United Kingdom",
+    "industry_sector": "Scientific AI & Foundation Systems",
     "notable_products": [
       "Gemini",
       "AlphaFold",
       "Gemma",
       "AlphaCode"
     ],
-    "employee_count": "1000-5000",
-    "industry_sector": "Scientific AI & Foundation Systems",
     "funding_stage": "Subsidiary (Alphabet)",
-    "headquarters": "London, United Kingdom",
+    "employee_count": "1000-5000",
     "founding_year": 2010
   },
   {
@@ -1939,16 +1854,16 @@
       "url": "https://mistral.ai"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "Paris, France",
+    "industry_sector": "Open AI Infrastructure",
     "notable_products": [
       "Mistral Large 2",
       "Mixtral 8x22B",
       "Codestral",
       "Le Chat"
     ],
-    "employee_count": "100-250",
-    "industry_sector": "Open AI Infrastructure",
     "funding_stage": "Series B ($6B+ valuation)",
-    "headquarters": "Paris, France",
+    "employee_count": "100-250",
     "founding_year": 2023
   },
   {
@@ -1967,15 +1882,15 @@
       "url": "https://cohere.com"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "Toronto, Canada",
+    "industry_sector": "Enterprise Generative AI",
     "notable_products": [
       "Command R+",
       "Cohere Embed",
       "Cohere Rerank"
     ],
-    "employee_count": "250-500",
-    "industry_sector": "Enterprise Generative AI",
     "funding_stage": "Series D ($5B+ valuation)",
-    "headquarters": "Toronto, Canada",
+    "employee_count": "250-500",
     "founding_year": 2019
   },
   {
@@ -1994,16 +1909,16 @@
       "url": "https://huggingface.co"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "New York, NY",
+    "industry_sector": "AI Collaboration Platform",
     "notable_products": [
       "Transformers",
       "Hugging Face Hub",
       "Inference Endpoints",
       "Spaces"
     ],
-    "employee_count": "250-500",
-    "industry_sector": "AI Collaboration Platform",
     "funding_stage": "Series D ($4.5B valuation)",
-    "headquarters": "New York, NY",
+    "employee_count": "250-500",
     "founding_year": 2016
   },
   {
@@ -2022,16 +1937,16 @@
       "url": "https://stability.ai"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "London, United Kingdom",
+    "industry_sector": "Generative Media & Diffusion Models",
     "notable_products": [
       "Stable Diffusion 3.5",
       "SDXL",
       "Stable Video Diffusion",
       "Stable Audio"
     ],
-    "employee_count": "100-250",
-    "industry_sector": "Generative Media & Diffusion Models",
     "funding_stage": "Series A",
-    "headquarters": "London, United Kingdom",
+    "employee_count": "100-250",
     "founding_year": 2020
   },
   {
@@ -2050,14 +1965,14 @@
       "url": "https://midjourney.com"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "San Francisco, CA",
+    "industry_sector": "Generative Visual Arts",
     "notable_products": [
       "Midjourney v6",
       "Midjourney Web Editor"
     ],
-    "employee_count": "50-100",
-    "industry_sector": "Generative Visual Arts",
     "funding_stage": "Bootstrapped (Profitable)",
-    "headquarters": "San Francisco, CA",
+    "employee_count": "50-100",
     "founding_year": 2021
   },
   {
@@ -2076,16 +1991,16 @@
       "url": "https://elevenlabs.io"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "New York, NY",
+    "industry_sector": "Voice AI & Audio Research",
     "notable_products": [
       "Voice Cloning",
       "Text-to-Speech API",
       "Dubbing Studio",
       "Conversational AI"
     ],
-    "employee_count": "100-250",
-    "industry_sector": "Voice AI & Audio Research",
     "funding_stage": "Series B ($1.1B valuation)",
-    "headquarters": "New York, NY",
+    "employee_count": "100-250",
     "founding_year": 2022
   },
   {
@@ -2104,16 +2019,16 @@
       "url": "https://runwayml.com"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "New York, NY",
+    "industry_sector": "AI Video Generation & VFX",
     "notable_products": [
       "Gen-3 Alpha",
       "Gen-2",
       "Motion Brush",
       "Runway Studios"
     ],
-    "employee_count": "100-250",
-    "industry_sector": "AI Video Generation & VFX",
     "funding_stage": "Series C ($1.5B valuation)",
-    "headquarters": "New York, NY",
+    "employee_count": "100-250",
     "founding_year": 2018
   },
   {
@@ -2132,15 +2047,15 @@
       "url": "https://perplexity.ai"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "San Francisco, CA",
+    "industry_sector": "Conversational Search Engine",
     "notable_products": [
       "Perplexity Pro",
       "Sonar Models",
       "Perplexity Enterprise Pro"
     ],
-    "employee_count": "100-250",
-    "industry_sector": "Conversational Search Engine",
     "funding_stage": "Series B ($3B+ valuation)",
-    "headquarters": "San Francisco, CA",
+    "employee_count": "100-250",
     "founding_year": 2022
   },
   {
@@ -2159,15 +2074,15 @@
       "url": "https://together.ai"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "San Francisco, CA",
+    "industry_sector": "Cloud AI Compute & Inference",
     "notable_products": [
       "Together Inference Engine",
       "GPU Clusters",
       "Fine-Tuning Platform"
     ],
-    "employee_count": "100-250",
-    "industry_sector": "Cloud AI Compute & Inference",
     "funding_stage": "Series A ($1.25B valuation)",
-    "headquarters": "San Francisco, CA",
+    "employee_count": "100-250",
     "founding_year": 2022
   },
   {
@@ -2186,14 +2101,14 @@
       "url": "https://replicate.com"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "San Francisco, CA",
+    "industry_sector": "Serverless ML Deployment",
     "notable_products": [
       "Replicate Cloud API",
       "Cog Container Tool"
     ],
-    "employee_count": "50-100",
-    "industry_sector": "Serverless ML Deployment",
     "funding_stage": "Series B ($350M valuation)",
-    "headquarters": "San Francisco, CA",
+    "employee_count": "50-100",
     "founding_year": 2019
   },
   {
@@ -2212,15 +2127,15 @@
       "url": "https://scale.com"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "San Francisco, CA",
+    "industry_sector": "AI Data Infrastructure & RLHF",
     "notable_products": [
       "Scale Data Engine",
       "SEAL Leaderboards",
       "GenAI Platform"
     ],
-    "employee_count": "1000-5000",
-    "industry_sector": "AI Data Infrastructure & RLHF",
     "funding_stage": "Series F ($13.8B valuation)",
-    "headquarters": "San Francisco, CA",
+    "employee_count": "1000-5000",
     "founding_year": 2016
   },
   {
@@ -2239,14 +2154,14 @@
       "url": "https://pinecone.io"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "New York, NY",
+    "industry_sector": "Vector Database Infrastructure",
     "notable_products": [
       "Pinecone Serverless",
       "Vector Search API"
     ],
-    "employee_count": "100-250",
-    "industry_sector": "Vector Database Infrastructure",
     "funding_stage": "Series B ($750M valuation)",
-    "headquarters": "New York, NY",
+    "employee_count": "100-250",
     "founding_year": 2019
   },
   {
@@ -2265,15 +2180,15 @@
       "url": "https://langchain.com"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "San Francisco, CA",
+    "industry_sector": "AI Application Frameworks",
     "notable_products": [
       "LangChain Framework",
       "LangGraph",
       "LangSmith"
     ],
-    "employee_count": "50-100",
-    "industry_sector": "AI Application Frameworks",
     "funding_stage": "Series A ($200M+ valuation)",
-    "headquarters": "San Francisco, CA",
+    "employee_count": "50-100",
     "founding_year": 2022
   },
   {
@@ -2292,15 +2207,15 @@
       "url": "https://wandb.ai"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "San Francisco, CA",
+    "industry_sector": "MLOps & Observability",
     "notable_products": [
       "W&B Models",
       "W&B Weave",
       "W&B Artifacts"
     ],
-    "employee_count": "250-500",
-    "industry_sector": "MLOps & Observability",
     "funding_stage": "Series C ($1B+ valuation)",
-    "headquarters": "San Francisco, CA",
+    "employee_count": "250-500",
     "founding_year": 2017
   },
   {
@@ -2319,15 +2234,15 @@
       "url": "https://deepseek.com"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "Hangzhou, China",
+    "industry_sector": "Frontier AI Research & Reasoning",
     "notable_products": [
       "DeepSeek-V3",
       "DeepSeek-R1",
       "DeepSeek Coder"
     ],
-    "employee_count": "100-250",
-    "industry_sector": "Frontier AI Research & Reasoning",
     "funding_stage": "Private Research Firm",
-    "headquarters": "Hangzhou, China",
+    "employee_count": "100-250",
     "founding_year": 2023
   },
   {
@@ -2346,15 +2261,15 @@
       "url": "https://x.ai"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "San Francisco, CA",
+    "industry_sector": "Frontier AI & Scientific Reasoning",
     "notable_products": [
       "Grok-2",
       "Grok Vision",
       "Colossus Supercomputer"
     ],
-    "employee_count": "100-250",
-    "industry_sector": "Frontier AI & Scientific Reasoning",
     "funding_stage": "Series B ($50B valuation)",
-    "headquarters": "San Francisco, CA",
+    "employee_count": "100-250",
     "founding_year": 2023
   },
   {
@@ -2373,14 +2288,14 @@
       "url": "https://figure.ai"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "Sunnyvale, CA",
+    "industry_sector": "Autonomous Humanoid Robotics",
     "notable_products": [
       "Figure 01",
       "Figure 02"
     ],
-    "employee_count": "100-250",
-    "industry_sector": "Autonomous Humanoid Robotics",
     "funding_stage": "Series B ($2.6B valuation)",
-    "headquarters": "Sunnyvale, CA",
+    "employee_count": "100-250",
     "founding_year": 2022
   },
   {
@@ -2399,14 +2314,14 @@
       "url": "https://cursor.com"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "San Francisco, CA",
+    "industry_sector": "AI Developer Environments",
     "notable_products": [
       "Cursor Code Editor",
       "Cursor Composer"
     ],
-    "employee_count": "20-50",
-    "industry_sector": "AI Developer Environments",
     "funding_stage": "Series A ($400M+ valuation)",
-    "headquarters": "San Francisco, CA",
+    "employee_count": "20-50",
     "founding_year": 2022
   },
   {
@@ -2425,16 +2340,16 @@
       "url": "https://nvidia.com"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "Santa Clara, CA",
+    "industry_sector": "Accelerated Computing & AI Hardware",
     "notable_products": [
       "H100 Tensor Core GPU",
       "Blackwell B200",
       "CUDA",
       "NVIDIA NIM"
     ],
-    "employee_count": "10000+",
-    "industry_sector": "Accelerated Computing & AI Hardware",
     "funding_stage": "Public (NASDAQ: NVDA)",
-    "headquarters": "Santa Clara, CA",
+    "employee_count": "10000+",
     "founding_year": 1993
   },
   {
@@ -2453,15 +2368,15 @@
       "url": "https://databricks.com"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "San Francisco, CA",
+    "industry_sector": "Data Intelligence & Lakehouse",
     "notable_products": [
       "Databricks Lakehouse",
       "Mosaic AI",
       "DBRX Foundation Model"
     ],
-    "employee_count": "5000+",
-    "industry_sector": "Data Intelligence & Lakehouse",
     "funding_stage": "Series I ($43B valuation)",
-    "headquarters": "San Francisco, CA",
+    "employee_count": "5000+",
     "founding_year": 2013
   },
   {
@@ -2480,14 +2395,14 @@
       "url": "https://groq.com"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "Mountain View, CA",
+    "industry_sector": "Ultra-Fast AI Inference Hardware",
     "notable_products": [
       "LPU Inference Engine",
       "GroqCloud"
     ],
-    "employee_count": "250-500",
-    "industry_sector": "Ultra-Fast AI Inference Hardware",
     "funding_stage": "Series D ($2.8B valuation)",
-    "headquarters": "Mountain View, CA",
+    "employee_count": "250-500",
     "founding_year": 2016
   },
   {
@@ -2506,14 +2421,14 @@
       "url": "https://harvey.ai"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "San Francisco, CA",
+    "industry_sector": "Legal AI Platform",
     "notable_products": [
       "Harvey Assistant",
       "Contract Analysis Engine"
     ],
-    "employee_count": "100-250",
-    "industry_sector": "Legal AI Platform",
     "funding_stage": "Series C ($1.5B valuation)",
-    "headquarters": "San Francisco, CA",
+    "employee_count": "100-250",
     "founding_year": 2022
   },
   {
@@ -2532,15 +2447,15 @@
       "url": "https://writer.com"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "San Francisco, CA",
+    "industry_sector": "Full-Stack Enterprise Generative AI",
     "notable_products": [
       "Palmyra LLMs",
       "Writer Knowledge Graph",
       "Writer AI Studio"
     ],
-    "employee_count": "250-500",
-    "industry_sector": "Full-Stack Enterprise Generative AI",
     "funding_stage": "Series C ($1.9B valuation)",
-    "headquarters": "San Francisco, CA",
+    "employee_count": "250-500",
     "founding_year": 2020
   },
   {
@@ -2559,14 +2474,14 @@
       "url": "https://synthesia.io"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "London, United Kingdom",
+    "industry_sector": "AI Avatar Video Generation",
     "notable_products": [
       "Synthesia STUDIO",
       "Expressive Avatars"
     ],
-    "employee_count": "250-500",
-    "industry_sector": "AI Avatar Video Generation",
     "funding_stage": "Series C ($1B valuation)",
-    "headquarters": "London, United Kingdom",
+    "employee_count": "250-500",
     "founding_year": 2017
   },
   {
@@ -2585,14 +2500,14 @@
       "url": "https://character.ai"
     },
     "ingested_at": "2026-09-16",
+    "headquarters": "Menlo Park, CA",
+    "industry_sector": "Conversational Entertainment & Companions",
     "notable_products": [
       "Character.AI Web/Mobile",
       "Character Voice"
     ],
-    "employee_count": "100-250",
-    "industry_sector": "Conversational Entertainment & Companions",
     "funding_stage": "Strategic Licensing (Google)",
-    "headquarters": "Menlo Park, CA",
+    "employee_count": "100-250",
     "founding_year": 2021
   },
   {
@@ -2611,8 +2526,8 @@
       "url": "https://chatgpt.com"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
     "pricing": "Freemium",
+    "api_available": true,
     "platforms": [
       "Web",
       "macOS",
@@ -2639,8 +2554,8 @@
       "url": "https://claude.ai"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
     "pricing": "Freemium",
+    "api_available": true,
     "platforms": [
       "Web",
       "macOS",
@@ -2667,8 +2582,8 @@
       "url": "https://gemini.google.com"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
     "pricing": "Freemium",
+    "api_available": true,
     "platforms": [
       "Web",
       "iOS",
@@ -2694,8 +2609,8 @@
       "url": "https://cursor.com"
     },
     "ingested_at": "2026-09-16",
-    "api_available": false,
     "pricing": "Freemium",
+    "api_available": false,
     "platforms": [
       "macOS",
       "Windows",
@@ -2720,8 +2635,8 @@
       "url": "https://github.com/features/copilot"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
     "pricing": "Paid",
+    "api_available": true,
     "platforms": [
       "VS Code",
       "Visual Studio",
@@ -2747,8 +2662,8 @@
       "url": "https://midjourney.com"
     },
     "ingested_at": "2026-09-16",
-    "api_available": false,
     "pricing": "Paid",
+    "api_available": false,
     "platforms": [
       "Discord",
       "Web Canvas"
@@ -2772,8 +2687,8 @@
       "url": "https://perplexity.ai"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
     "pricing": "Freemium",
+    "api_available": true,
     "platforms": [
       "Web",
       "iOS",
@@ -2799,8 +2714,8 @@
       "url": "https://notion.so/product/ai"
     },
     "ingested_at": "2026-09-16",
-    "api_available": false,
     "pricing": "Paid",
+    "api_available": false,
     "platforms": [
       "Web",
       "macOS",
@@ -2827,8 +2742,8 @@
       "url": "https://runwayml.com"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
     "pricing": "Freemium",
+    "api_available": true,
     "platforms": [
       "Web",
       "iOS"
@@ -2852,8 +2767,8 @@
       "url": "https://elevenlabs.io"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
     "pricing": "Freemium",
+    "api_available": true,
     "platforms": [
       "Web",
       "API",
@@ -2878,8 +2793,8 @@
       "url": "https://suno.com"
     },
     "ingested_at": "2026-09-16",
-    "api_available": false,
     "pricing": "Freemium",
+    "api_available": false,
     "platforms": [
       "Web",
       "iOS"
@@ -2903,8 +2818,8 @@
       "url": "https://udio.com"
     },
     "ingested_at": "2026-09-16",
-    "api_available": false,
     "pricing": "Freemium",
+    "api_available": false,
     "platforms": [
       "Web"
     ],
@@ -2927,8 +2842,8 @@
       "url": "https://v0.dev"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
     "pricing": "Freemium",
+    "api_available": true,
     "platforms": [
       "Web"
     ],
@@ -2951,8 +2866,8 @@
       "url": "https://bolt.new"
     },
     "ingested_at": "2026-09-16",
-    "api_available": false,
     "pricing": "Freemium",
+    "api_available": false,
     "platforms": [
       "Web"
     ],
@@ -2975,8 +2890,8 @@
       "url": "https://lovable.dev"
     },
     "ingested_at": "2026-09-16",
-    "api_available": false,
     "pricing": "Freemium",
+    "api_available": false,
     "platforms": [
       "Web"
     ],
@@ -2999,8 +2914,8 @@
       "url": "https://replit.com"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
     "pricing": "Freemium",
+    "api_available": true,
     "platforms": [
       "Web",
       "iOS",
@@ -3025,8 +2940,8 @@
       "url": "https://grammarly.com"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
     "pricing": "Freemium",
+    "api_available": true,
     "platforms": [
       "Web",
       "Chrome",
@@ -3053,8 +2968,8 @@
       "url": "https://ollama.com"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
     "pricing": "Free",
+    "api_available": true,
     "platforms": [
       "macOS",
       "Linux",
@@ -3079,8 +2994,8 @@
       "url": "https://lmstudio.ai"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
     "pricing": "Free",
+    "api_available": true,
     "platforms": [
       "macOS",
       "Windows",
@@ -3105,8 +3020,8 @@
       "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
     "pricing": "Paid (API Usage)",
+    "api_available": true,
     "platforms": [
       "macOS",
       "Linux",
@@ -3131,8 +3046,8 @@
       "url": "https://phind.com"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
     "pricing": "Freemium",
+    "api_available": true,
     "platforms": [
       "Web",
       "VS Code Extension"
@@ -3156,8 +3071,8 @@
       "url": "https://descript.com"
     },
     "ingested_at": "2026-09-16",
-    "api_available": false,
     "pricing": "Freemium",
+    "api_available": false,
     "platforms": [
       "macOS",
       "Windows",
@@ -3182,16 +3097,16 @@
       "url": "https://github.com/langchain-ai/langchain"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Python",
+    "github_stars": 98000,
+    "last_updated": "2026-09",
     "topics": [
       "llm",
       "agents",
       "rag",
       "orchestration"
     ],
+    "primary_language": "Python",
     "forks": 16000,
-    "last_updated": "2026-09",
-    "github_stars": 98000,
     "license": "MIT"
   },
   {
@@ -3210,16 +3125,16 @@
       "url": "https://github.com/run-llama/llama_index"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Python",
+    "github_stars": 38000,
+    "last_updated": "2026-09",
     "topics": [
       "rag",
       "data-framework",
       "vector-search",
       "knowledge-base"
     ],
+    "primary_language": "Python",
     "forks": 4800,
-    "last_updated": "2026-09",
-    "github_stars": 38000,
     "license": "MIT"
   },
   {
@@ -3238,16 +3153,16 @@
       "url": "https://github.com/vllm-project/vllm"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Python",
+    "github_stars": 36000,
+    "last_updated": "2026-09",
     "topics": [
       "llm-serving",
       "paged-attention",
       "inference",
       "gpu-optimization"
     ],
+    "primary_language": "Python",
     "forks": 5200,
-    "last_updated": "2026-09",
-    "github_stars": 36000,
     "license": "Apache-2.0"
   },
   {
@@ -3266,16 +3181,16 @@
       "url": "https://github.com/huggingface/transformers"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Python",
+    "github_stars": 135000,
+    "last_updated": "2026-09",
     "topics": [
       "deep-learning",
       "pytorch",
       "transformers",
       "nlp"
     ],
+    "primary_language": "Python",
     "forks": 26000,
-    "last_updated": "2026-09",
-    "github_stars": 135000,
     "license": "Apache-2.0"
   },
   {
@@ -3294,16 +3209,16 @@
       "url": "https://github.com/ollama/ollama"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Go",
+    "github_stars": 105000,
+    "last_updated": "2026-09",
     "topics": [
       "local-llm",
       "llama",
       "go",
       "desktop-ai"
     ],
+    "primary_language": "Go",
     "forks": 8900,
-    "last_updated": "2026-09",
-    "github_stars": 105000,
     "license": "MIT"
   },
   {
@@ -3322,16 +3237,16 @@
       "url": "https://github.com/microsoft/autogen"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Python",
+    "github_stars": 36000,
+    "last_updated": "2026-09",
     "topics": [
       "multi-agent",
       "autonomous-agents",
       "llm-agents",
       "collaboration"
     ],
+    "primary_language": "Python",
     "forks": 5400,
-    "last_updated": "2026-09",
-    "github_stars": 36000,
     "license": "CC-BY-4.0"
   },
   {
@@ -3350,16 +3265,16 @@
       "url": "https://github.com/geekan/MetaGPT"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Python",
+    "github_stars": 46000,
+    "last_updated": "2026-09",
     "topics": [
       "software-engineering",
       "multi-agent",
       "sop",
       "autonomous-coding"
     ],
+    "primary_language": "Python",
     "forks": 5300,
-    "last_updated": "2026-09",
-    "github_stars": 46000,
     "license": "MIT"
   },
   {
@@ -3378,16 +3293,16 @@
       "url": "https://github.com/browser-use/browser-use"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Python",
+    "github_stars": 24000,
+    "last_updated": "2026-09",
     "topics": [
       "browser-automation",
       "agentic-web",
       "playwright",
       "web-agent"
     ],
+    "primary_language": "Python",
     "forks": 2400,
-    "last_updated": "2026-09",
-    "github_stars": 24000,
     "license": "MIT"
   },
   {
@@ -3406,16 +3321,16 @@
       "url": "https://github.com/modelcontextprotocol/servers"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "TypeScript",
+    "github_stars": 21000,
+    "last_updated": "2026-09",
     "topics": [
       "mcp",
       "anthropic",
       "context-protocol",
       "tools"
     ],
+    "primary_language": "TypeScript",
     "forks": 2200,
-    "last_updated": "2026-09",
-    "github_stars": 21000,
     "license": "MIT"
   },
   {
@@ -3434,16 +3349,16 @@
       "url": "https://github.com/chroma-core/chroma"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Python",
+    "github_stars": 16000,
+    "last_updated": "2026-09",
     "topics": [
       "vector-database",
       "embeddings",
       "semantic-search",
       "rag"
     ],
+    "primary_language": "Python",
     "forks": 1400,
-    "last_updated": "2026-09",
-    "github_stars": 16000,
     "license": "Apache-2.0"
   },
   {
@@ -3462,16 +3377,16 @@
       "url": "https://github.com/qdrant/qdrant"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Rust",
+    "github_stars": 22000,
+    "last_updated": "2026-09",
     "topics": [
       "vector-search",
       "rust",
       "hnsw",
       "nearest-neighbor"
     ],
+    "primary_language": "Rust",
     "forks": 1600,
-    "last_updated": "2026-09",
-    "github_stars": 22000,
     "license": "Apache-2.0"
   },
   {
@@ -3490,23 +3405,23 @@
       "url": "https://github.com/weaviate/weaviate"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Go",
+    "github_stars": 12000,
+    "last_updated": "2026-09",
     "topics": [
       "vector-database",
       "hybrid-search",
       "machine-learning",
       "graphql"
     ],
+    "primary_language": "Go",
     "forks": 950,
-    "last_updated": "2026-09",
-    "github_stars": 12000,
     "license": "BSD-3-Clause"
   },
   {
     "id": "3a0202b1-17a0-556b-8c1b-da79ec8860d4",
     "entity_type": "repository",
     "name": "affaan-m/ECC",
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. It has acquired over 259,833 stars and serves as a vital resource in the AI developer ecosystem.",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. It has acquired over 259,865 stars and serves as a vital resource in the AI developer ecosystem.",
     "url": "https://github.com/affaan-m/ECC",
     "categories": [
       "repository",
@@ -3518,7 +3433,8 @@
       "url": "https://github.com/search?q=llm agents"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "JavaScript",
+    "github_stars": 259865,
+    "last_updated": "2026-09",
     "topics": [
       "ai-agents",
       "anthropic",
@@ -3526,16 +3442,15 @@
       "claude-code",
       "developer-tools"
     ],
-    "forks": 38892,
-    "last_updated": "2026-09",
-    "github_stars": 259833,
+    "primary_language": "JavaScript",
+    "forks": 38897,
     "license": "MIT"
   },
   {
     "id": "8e55b808-6b80-5ec1-bb8f-c5e1e5fea89c",
     "entity_type": "repository",
     "name": "NousResearch/hermes-agent",
-    "description": "The agent that grows with you. It has acquired over 246,084 stars and serves as a vital resource in the AI developer ecosystem.",
+    "description": "The agent that grows with you. It has acquired over 246,096 stars and serves as a vital resource in the AI developer ecosystem.",
     "url": "https://github.com/NousResearch/hermes-agent",
     "categories": [
       "repository",
@@ -3547,7 +3462,8 @@
       "url": "https://github.com/search?q=llm agents"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Python",
+    "github_stars": 246096,
+    "last_updated": "2026-09",
     "topics": [
       "ai",
       "ai-agent",
@@ -3555,16 +3471,15 @@
       "anthropic",
       "chatgpt"
     ],
-    "forks": 51398,
-    "last_updated": "2026-09",
-    "github_stars": 246084,
+    "primary_language": "Python",
+    "forks": 51407,
     "license": "MIT"
   },
   {
     "id": "d903decb-88bf-5286-862c-7601bc2f0151",
     "entity_type": "repository",
     "name": "Significant-Gravitas/AutoGPT",
-    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. It has acquired over 187,384 stars and serves as a vital resource in the AI developer ecosystem.",
+    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. It has acquired over 187,385 stars and serves as a vital resource in the AI developer ecosystem.",
     "url": "https://github.com/Significant-Gravitas/AutoGPT",
     "categories": [
       "repository",
@@ -3576,7 +3491,8 @@
       "url": "https://github.com/search?q=llm agents"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Python",
+    "github_stars": 187385,
+    "last_updated": "2026-09",
     "topics": [
       "agentic-ai",
       "agents",
@@ -3584,16 +3500,15 @@
       "artificial-intelligence",
       "autonomous-agents"
     ],
+    "primary_language": "Python",
     "forks": 46009,
-    "last_updated": "2026-09",
-    "github_stars": 187384,
     "license": "NOASSERTION"
   },
   {
     "id": "1f462aed-ca76-5ce8-b51e-3303ff525022",
     "entity_type": "repository",
     "name": "langgenius/dify",
-    "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack. It has acquired over 155,951 stars and serves as a vital resource in the AI developer ecosystem.",
+    "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack. It has acquired over 155,957 stars and serves as a vital resource in the AI developer ecosystem.",
     "url": "https://github.com/langgenius/dify",
     "categories": [
       "repository",
@@ -3605,7 +3520,8 @@
       "url": "https://github.com/search?q=llm agents"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "TypeScript",
+    "github_stars": 155957,
+    "last_updated": "2026-09",
     "topics": [
       "agent",
       "agentic-ai",
@@ -3613,16 +3529,15 @@
       "agentic-workflow",
       "ai"
     ],
-    "forks": 24633,
-    "last_updated": "2026-09",
-    "github_stars": 155951,
+    "primary_language": "TypeScript",
+    "forks": 24634,
     "license": "NOASSERTION"
   },
   {
     "id": "d4ef5341-166a-5317-a744-1d8ca34d9c4a",
     "entity_type": "repository",
     "name": "DietrichGebert/ponytail",
-    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. It has acquired over 140,065 stars and serves as a vital resource in the AI developer ecosystem.",
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. It has acquired over 140,101 stars and serves as a vital resource in the AI developer ecosystem.",
     "url": "https://github.com/DietrichGebert/ponytail",
     "categories": [
       "repository",
@@ -3634,7 +3549,8 @@
       "url": "https://github.com/search?q=llm agents"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "JavaScript",
+    "github_stars": 140101,
+    "last_updated": "2026-09",
     "topics": [
       "agent-skills",
       "ai-agents",
@@ -3642,16 +3558,15 @@
       "claude-code",
       "claude-code-plugin"
     ],
-    "forks": 7524,
-    "last_updated": "2026-09",
-    "github_stars": 140065,
+    "primary_language": "JavaScript",
+    "forks": 7526,
     "license": "MIT"
   },
   {
     "id": "92b77029-f868-5ee3-9829-320a65240b23",
     "entity_type": "repository",
     "name": "infiniflow/ragflow",
-    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs. It has acquired over 90,818 stars and serves as a vital resource in the AI developer ecosystem.",
+    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs. It has acquired over 90,819 stars and serves as a vital resource in the AI developer ecosystem.",
     "url": "https://github.com/infiniflow/ragflow",
     "categories": [
       "repository",
@@ -3663,7 +3578,8 @@
       "url": "https://github.com/search?q=rag retrieval augmented generation"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Go",
+    "github_stars": 90819,
+    "last_updated": "2026-09",
     "topics": [
       "agent-harness",
       "agentic-ai",
@@ -3671,9 +3587,8 @@
       "agentic-retrieval",
       "agentic-search"
     ],
-    "forks": 10749,
-    "last_updated": "2026-09",
-    "github_stars": 90818,
+    "primary_language": "Go",
+    "forks": 10750,
     "license": "Apache-2.0"
   },
   {
@@ -3692,7 +3607,8 @@
       "url": "https://github.com/search?q=rag retrieval augmented generation"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Python",
+    "github_stars": 39705,
+    "last_updated": "2026-09",
     "topics": [
       "docling",
       "genai",
@@ -3700,16 +3616,15 @@
       "graphrag",
       "knowledge-graph"
     ],
+    "primary_language": "Python",
     "forks": 5590,
-    "last_updated": "2026-09",
-    "github_stars": 39705,
     "license": "MIT"
   },
   {
     "id": "d37a1915-c673-5a4c-9010-b048b10f3a99",
     "entity_type": "repository",
     "name": "microsoft/graphrag",
-    "description": "A modular graph-based Retrieval-Augmented Generation (RAG) system. It has acquired over 35,995 stars and serves as a vital resource in the AI developer ecosystem.",
+    "description": "A modular graph-based Retrieval-Augmented Generation (RAG) system. It has acquired over 35,994 stars and serves as a vital resource in the AI developer ecosystem.",
     "url": "https://github.com/microsoft/graphrag",
     "categories": [
       "repository",
@@ -3721,7 +3636,8 @@
       "url": "https://github.com/search?q=rag retrieval augmented generation"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Python",
+    "github_stars": 35994,
+    "last_updated": "2026-09",
     "topics": [
       "gpt",
       "gpt-4",
@@ -3729,16 +3645,15 @@
       "graphrag",
       "llm"
     ],
-    "forks": 3791,
-    "last_updated": "2026-09",
-    "github_stars": 35995,
+    "primary_language": "Python",
+    "forks": 3790,
     "license": "MIT"
   },
   {
     "id": "8b94c606-65a6-56d4-aa8b-c2503e2b3674",
     "entity_type": "repository",
     "name": "NirDiamant/RAG_Techniques",
-    "description": "This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial. It has acquired over 29,511 stars and serves as a vital resource in the AI developer ecosystem.",
+    "description": "This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial. It has acquired over 29,512 stars and serves as a vital resource in the AI developer ecosystem.",
     "url": "https://github.com/NirDiamant/RAG_Techniques",
     "categories": [
       "repository",
@@ -3750,7 +3665,8 @@
       "url": "https://github.com/search?q=rag retrieval augmented generation"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Jupyter Notebook",
+    "github_stars": 29512,
+    "last_updated": "2026-09",
     "topics": [
       "agentic-rag",
       "ai",
@@ -3758,9 +3674,8 @@
       "generative-ai",
       "gpt"
     ],
+    "primary_language": "Jupyter Notebook",
     "forks": 3611,
-    "last_updated": "2026-09",
-    "github_stars": 29511,
     "license": "NOASSERTION"
   },
   {
@@ -3779,7 +3694,8 @@
       "url": "https://github.com/search?q=rag retrieval augmented generation"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Python",
+    "github_stars": 7997,
+    "last_updated": "2025-11",
     "topics": [
       "artificial-intelligence",
       "large-language-models",
@@ -3787,9 +3703,8 @@
       "question-answering",
       "rag"
     ],
+    "primary_language": "Python",
     "forks": 647,
-    "last_updated": "2025-11",
-    "github_stars": 7997,
     "license": "MIT"
   },
   {
@@ -3808,11 +3723,11 @@
       "url": "https://github.com/search?q=rag retrieval augmented generation"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Python",
-    "topics": [],
-    "forks": 853,
-    "last_updated": "2026-06",
     "github_stars": 7707,
+    "last_updated": "2026-06",
+    "topics": [],
+    "primary_language": "Python",
+    "forks": 853,
     "license": "BSD-3-Clause"
   },
   {
@@ -3831,7 +3746,8 @@
       "url": "https://github.com/search?q=vector database embeddings"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "C++",
+    "github_stars": 4023,
+    "last_updated": "2025-10",
     "topics": [
       "cypher",
       "database",
@@ -3839,16 +3755,15 @@
       "embedded",
       "graph"
     ],
+    "primary_language": "C++",
     "forks": 522,
-    "last_updated": "2025-10",
-    "github_stars": 4023,
     "license": "MIT"
   },
   {
     "id": "3b49595d-7aa5-5ce3-b811-8f6644edf144",
     "entity_type": "repository",
     "name": "hegelai/prompttools",
-    "description": "Open-source tools for prompt testing and experimentation, with support for both LLMs (e.g. OpenAI, LLaMA) and vector databases (e.g. Chroma, Weaviate, LanceDB). It has acquired over 3,056 stars and serves as a vital resource in the AI developer ecosystem.",
+    "description": "Open-source tools for prompt testing and experimentation, with support for both LLMs (e.g. OpenAI, LLaMA) and vector databases (e.g. Chroma, Weaviate, LanceDB). It has acquired over 3,055 stars and serves as a vital resource in the AI developer ecosystem.",
     "url": "https://github.com/hegelai/prompttools",
     "categories": [
       "repository",
@@ -3860,7 +3775,8 @@
       "url": "https://github.com/search?q=vector database embeddings"
     },
     "ingested_at": "2026-09-16",
-    "primary_language": "Python",
+    "github_stars": 3055,
+    "last_updated": "2026-02",
     "topics": [
       "deep-learning",
       "developer-tools",
@@ -3868,9 +3784,8 @@
       "large-language-models",
       "llms"
     ],
+    "primary_language": "Python",
     "forks": 256,
-    "last_updated": "2026-02",
-    "github_stars": 3056,
     "license": "Apache-2.0"
   },
   {
@@ -3889,19 +3804,19 @@
       "url": "https://www.anthropic.com/news/claude-3-5-sonnet"
     },
     "ingested_at": "2026-09-16",
-    "author": "Anthropic Research",
-    "related_entities": [
-      "Anthropic",
-      "Claude 3.5 Sonnet"
-    ],
-    "published_date": "2024-06-20",
     "topic_tags": [
       "model-launch",
       "coding",
       "artifacts",
       "benchmark"
     ],
-    "source_name": "Anthropic Newsroom"
+    "source_name": "Anthropic Newsroom",
+    "author": "Anthropic Research",
+    "related_entities": [
+      "Anthropic",
+      "Claude 3.5 Sonnet"
+    ],
+    "published_date": "2024-06-20"
   },
   {
     "id": "48adc3c4-fd8c-5818-a5f4-f451c6ebbb0c",
@@ -3919,20 +3834,20 @@
       "url": "https://openai.com/index/hello-gpt-4o/"
     },
     "ingested_at": "2026-09-16",
-    "author": "OpenAI",
-    "related_entities": [
-      "OpenAI",
-      "GPT-4o",
-      "ChatGPT"
-    ],
-    "published_date": "2024-05-13",
     "topic_tags": [
       "multimodal",
       "real-time-voice",
       "gpt-4o",
       "inference"
     ],
-    "source_name": "OpenAI Announcements"
+    "source_name": "OpenAI Announcements",
+    "author": "OpenAI",
+    "related_entities": [
+      "OpenAI",
+      "GPT-4o",
+      "ChatGPT"
+    ],
+    "published_date": "2024-05-13"
   },
   {
     "id": "a820cc73-4b78-59ef-a335-110c13cd56e7",
@@ -3950,19 +3865,19 @@
       "url": "https://about.fb.com/news/2024/07/meta-llama-3-1/"
     },
     "ingested_at": "2026-09-16",
-    "author": "Mark Zuckerberg",
-    "related_entities": [
-      "Meta",
-      "Llama 3.1 405B"
-    ],
-    "published_date": "2024-07-23",
     "topic_tags": [
       "open-source",
       "llama",
       "meta",
       "weights"
     ],
-    "source_name": "Meta Newsroom"
+    "source_name": "Meta Newsroom",
+    "author": "Mark Zuckerberg",
+    "related_entities": [
+      "Meta",
+      "Llama 3.1 405B"
+    ],
+    "published_date": "2024-07-23"
   },
   {
     "id": "76889da9-3108-57df-be1e-a5c47c6bc778",
@@ -3980,20 +3895,20 @@
       "url": "https://www.anthropic.com/news/model-context-protocol"
     },
     "ingested_at": "2026-09-16",
-    "author": "MCP Team",
-    "related_entities": [
-      "Anthropic",
-      "Model Context Protocol",
-      "Claude Desktop"
-    ],
-    "published_date": "2024-11-25",
     "topic_tags": [
       "mcp",
       "open-standard",
       "anthropic",
       "developer-tools"
     ],
-    "source_name": "Anthropic Engineering"
+    "source_name": "Anthropic Engineering",
+    "author": "MCP Team",
+    "related_entities": [
+      "Anthropic",
+      "Model Context Protocol",
+      "Claude Desktop"
+    ],
+    "published_date": "2024-11-25"
   },
   {
     "id": "c52c481f-e81d-55e0-b717-e023ddec92ed",
@@ -4011,19 +3926,19 @@
       "url": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/"
     },
     "ingested_at": "2026-09-16",
-    "author": "Demis Hassabis",
-    "related_entities": [
-      "Google DeepMind",
-      "Gemini 1.5 Pro"
-    ],
-    "published_date": "2024-05-14",
     "topic_tags": [
       "gemini",
       "long-context",
       "multimodal",
       "google-deepmind"
     ],
-    "source_name": "Google Blog"
+    "source_name": "Google Blog",
+    "author": "Demis Hassabis",
+    "related_entities": [
+      "Google DeepMind",
+      "Gemini 1.5 Pro"
+    ],
+    "published_date": "2024-05-14"
   },
   {
     "id": "46adaf97-554e-5cba-a3a0-f4bc8e4dfb8c",
@@ -4041,19 +3956,19 @@
       "url": "https://deepseek.com/news/deepseek-v3"
     },
     "ingested_at": "2026-09-16",
-    "author": "DeepSeek Research",
-    "related_entities": [
-      "DeepSeek",
-      "DeepSeek-V3"
-    ],
-    "published_date": "2024-12-26",
     "topic_tags": [
       "deepseek",
       "moe",
       "efficiency",
       "open-weights"
     ],
-    "source_name": "DeepSeek AI"
+    "source_name": "DeepSeek AI",
+    "author": "DeepSeek Research",
+    "related_entities": [
+      "DeepSeek",
+      "DeepSeek-V3"
+    ],
+    "published_date": "2024-12-26"
   },
   {
     "id": "53cfed2e-115d-51bd-b113-a7602ef9d9f3",
@@ -4071,15 +3986,15 @@
       "url": "https://techcrunch.com/tag/artificial-intelligence/feed/"
     },
     "ingested_at": "2026-09-16",
-    "author": null,
-    "related_entities": [],
-    "published_date": "2026-08-12",
     "topic_tags": [
       "AI",
       "technology",
       "announcement"
     ],
-    "source_name": "TechCrunch AI"
+    "source_name": "TechCrunch AI",
+    "author": null,
+    "related_entities": [],
+    "published_date": "2026-08-12"
   },
   {
     "id": "ebb048bb-f8f6-5082-a999-d6081a77e5e1",
@@ -4097,15 +4012,15 @@
       "url": "https://techcrunch.com/tag/artificial-intelligence/feed/"
     },
     "ingested_at": "2026-09-16",
-    "author": null,
-    "related_entities": [],
-    "published_date": "2026-04-27",
     "topic_tags": [
       "AI",
       "technology",
       "announcement"
     ],
-    "source_name": "TechCrunch AI"
+    "source_name": "TechCrunch AI",
+    "author": null,
+    "related_entities": [],
+    "published_date": "2026-04-27"
   },
   {
     "id": "dff8eade-c87f-50db-92a8-f1b6a2dec87f",
@@ -4123,15 +4038,15 @@
       "url": "https://techcrunch.com/tag/artificial-intelligence/feed/"
     },
     "ingested_at": "2026-09-16",
-    "author": null,
-    "related_entities": [],
-    "published_date": "2026-01-13",
     "topic_tags": [
       "AI",
       "technology",
       "announcement"
     ],
-    "source_name": "TechCrunch AI"
+    "source_name": "TechCrunch AI",
+    "author": null,
+    "related_entities": [],
+    "published_date": "2026-01-13"
   },
   {
     "id": "b5b44a23-87f9-5d56-b74d-722f546b5a07",
@@ -4149,15 +4064,15 @@
       "url": "https://techcrunch.com/tag/artificial-intelligence/feed/"
     },
     "ingested_at": "2026-09-16",
-    "author": null,
-    "related_entities": [],
-    "published_date": "2025-10-31",
     "topic_tags": [
       "AI",
       "technology",
       "announcement"
     ],
-    "source_name": "TechCrunch AI"
+    "source_name": "TechCrunch AI",
+    "author": null,
+    "related_entities": [],
+    "published_date": "2025-10-31"
   },
   {
     "id": "423a7974-165e-5140-8734-3e0dd029702a",
@@ -4175,15 +4090,15 @@
       "url": "https://techcrunch.com/tag/artificial-intelligence/feed/"
     },
     "ingested_at": "2026-09-16",
-    "author": null,
-    "related_entities": [],
-    "published_date": "2025-08-26",
     "topic_tags": [
       "AI",
       "technology",
       "announcement"
     ],
-    "source_name": "TechCrunch AI"
+    "source_name": "TechCrunch AI",
+    "author": null,
+    "related_entities": [],
+    "published_date": "2025-08-26"
   },
   {
     "id": "4f97ffbc-f94a-5a10-9baf-f2e05bfac3b4",
@@ -4201,15 +4116,15 @@
       "url": "https://techcrunch.com/tag/artificial-intelligence/feed/"
     },
     "ingested_at": "2026-09-16",
-    "author": null,
-    "related_entities": [],
-    "published_date": "2025-08-20",
     "topic_tags": [
       "AI",
       "technology",
       "announcement"
     ],
-    "source_name": "TechCrunch AI"
+    "source_name": "TechCrunch AI",
+    "author": null,
+    "related_entities": [],
+    "published_date": "2025-08-20"
   },
   {
     "id": "e79658cb-4682-50d5-8795-26a10ecd3abe",
@@ -4227,15 +4142,15 @@
       "url": "https://techcrunch.com/tag/artificial-intelligence/feed/"
     },
     "ingested_at": "2026-09-16",
-    "author": null,
-    "related_entities": [],
-    "published_date": "2025-08-20",
     "topic_tags": [
       "AI",
       "technology",
       "announcement"
     ],
-    "source_name": "TechCrunch AI"
+    "source_name": "TechCrunch AI",
+    "author": null,
+    "related_entities": [],
+    "published_date": "2025-08-20"
   },
   {
     "id": "f51fb9bc-01e2-517e-8d65-f09dfc9461d9",
@@ -4253,15 +4168,15 @@
       "url": "https://techcrunch.com/tag/artificial-intelligence/feed/"
     },
     "ingested_at": "2026-09-16",
-    "author": null,
-    "related_entities": [],
-    "published_date": "2025-08-04",
     "topic_tags": [
       "AI",
       "technology",
       "announcement"
     ],
-    "source_name": "TechCrunch AI"
+    "source_name": "TechCrunch AI",
+    "author": null,
+    "related_entities": [],
+    "published_date": "2025-08-04"
   },
   {
     "id": "9a1e55fa-2de4-5bc1-82d7-6f960a66df9d",
@@ -4279,15 +4194,15 @@
       "url": "https://techcrunch.com/tag/artificial-intelligence/feed/"
     },
     "ingested_at": "2026-09-16",
-    "author": null,
-    "related_entities": [],
-    "published_date": "2025-06-04",
     "topic_tags": [
       "AI",
       "technology",
       "announcement"
     ],
-    "source_name": "TechCrunch AI"
+    "source_name": "TechCrunch AI",
+    "author": null,
+    "related_entities": [],
+    "published_date": "2025-06-04"
   },
   {
     "id": "efdd73d1-2905-5a98-bf1c-120141c115b0",
@@ -4305,15 +4220,15 @@
       "url": "https://techcrunch.com/tag/artificial-intelligence/feed/"
     },
     "ingested_at": "2026-09-16",
-    "author": null,
-    "related_entities": [],
-    "published_date": "2025-06-02",
     "topic_tags": [
       "AI",
       "technology",
       "announcement"
     ],
-    "source_name": "TechCrunch AI"
+    "source_name": "TechCrunch AI",
+    "author": null,
+    "related_entities": [],
+    "published_date": "2025-06-02"
   },
   {
     "id": "44ae73c6-cd2d-5e57-bb67-09319dd7bddc",
@@ -4331,15 +4246,15 @@
       "url": "https://techcrunch.com/tag/artificial-intelligence/feed/"
     },
     "ingested_at": "2026-09-16",
-    "author": null,
-    "related_entities": [],
-    "published_date": "2025-05-27",
     "topic_tags": [
       "AI",
       "technology",
       "announcement"
     ],
-    "source_name": "TechCrunch AI"
+    "source_name": "TechCrunch AI",
+    "author": null,
+    "related_entities": [],
+    "published_date": "2025-05-27"
   },
   {
     "id": "89d3c9f7-a140-5ddf-8d06-63753caef9b8",
@@ -4357,15 +4272,15 @@
       "url": "https://techcrunch.com/tag/artificial-intelligence/feed/"
     },
     "ingested_at": "2026-09-16",
-    "author": null,
-    "related_entities": [],
-    "published_date": "2025-05-22",
     "topic_tags": [
       "AI",
       "technology",
       "announcement"
     ],
-    "source_name": "TechCrunch AI"
+    "source_name": "TechCrunch AI",
+    "author": null,
+    "related_entities": [],
+    "published_date": "2025-05-22"
   },
   {
     "id": "c84baf23-bcdc-51db-8442-436413c9f359",
@@ -4383,15 +4298,15 @@
       "url": "https://techcrunch.com/tag/artificial-intelligence/feed/"
     },
     "ingested_at": "2026-09-16",
-    "author": null,
-    "related_entities": [],
-    "published_date": "2025-04-01",
     "topic_tags": [
       "AI",
       "technology",
       "announcement"
     ],
-    "source_name": "TechCrunch AI"
+    "source_name": "TechCrunch AI",
+    "author": null,
+    "related_entities": [],
+    "published_date": "2025-04-01"
   },
   {
     "id": "d5c8725b-1b7d-5608-ac7f-70d590786b53",
@@ -4409,15 +4324,15 @@
       "url": "https://techcrunch.com/tag/artificial-intelligence/feed/"
     },
     "ingested_at": "2026-09-16",
-    "author": null,
-    "related_entities": [],
-    "published_date": "2025-03-30",
     "topic_tags": [
       "AI",
       "technology",
       "announcement"
     ],
-    "source_name": "TechCrunch AI"
+    "source_name": "TechCrunch AI",
+    "author": null,
+    "related_entities": [],
+    "published_date": "2025-03-30"
   },
   {
     "id": "5d4d8031-b9ca-5b87-95a6-bb940d4070f1",
@@ -4435,15 +4350,15 @@
       "url": "https://techcrunch.com/tag/artificial-intelligence/feed/"
     },
     "ingested_at": "2026-09-16",
-    "author": null,
-    "related_entities": [],
-    "published_date": "2025-03-20",
     "topic_tags": [
       "AI",
       "technology",
       "announcement"
     ],
-    "source_name": "TechCrunch AI"
+    "source_name": "TechCrunch AI",
+    "author": null,
+    "related_entities": [],
+    "published_date": "2025-03-20"
   },
   {
     "id": "d92769bc-5386-5574-997f-5587b2a53896",
@@ -4461,15 +4376,15 @@
       "url": "https://techcrunch.com/tag/artificial-intelligence/feed/"
     },
     "ingested_at": "2026-09-16",
-    "author": null,
-    "related_entities": [],
-    "published_date": "2025-03-20",
     "topic_tags": [
       "AI",
       "technology",
       "announcement"
     ],
-    "source_name": "TechCrunch AI"
+    "source_name": "TechCrunch AI",
+    "author": null,
+    "related_entities": [],
+    "published_date": "2025-03-20"
   },
   {
     "id": "2426c23d-1ea9-542c-ac22-93e7536a4a8e",
@@ -4488,10 +4403,6 @@
       "url": "https://www.youtube.com/watch?v=kCc8FmEb1nY"
     },
     "ingested_at": "2026-09-16",
-    "channel_name": "Andrej Karpathy",
-    "youtube_id": "kCc8FmEb1nY",
-    "duration_minutes": 116,
-    "published_date": "2023-01-17",
     "topic_tags": [
       "llm",
       "transformers",
@@ -4499,7 +4410,11 @@
       "pytorch",
       "coding-tutorial"
     ],
-    "view_count": 4800000
+    "duration_minutes": 116,
+    "view_count": 4800000,
+    "youtube_id": "kCc8FmEb1nY",
+    "published_date": "2023-01-17",
+    "channel_name": "Andrej Karpathy"
   },
   {
     "id": "74fb29c7-4f7f-5dec-91e1-9729353b0357",
@@ -4518,10 +4433,6 @@
       "url": "https://www.youtube.com/watch?v=eMlx5fFNoYc"
     },
     "ingested_at": "2026-09-16",
-    "channel_name": "3Blue1Brown",
-    "youtube_id": "eMlx5fFNoYc",
-    "duration_minutes": 27,
-    "published_date": "2024-04-07",
     "topic_tags": [
       "attention",
       "transformers",
@@ -4529,7 +4440,11 @@
       "neural-networks",
       "visualization"
     ],
-    "view_count": 3200000
+    "duration_minutes": 27,
+    "view_count": 3200000,
+    "youtube_id": "eMlx5fFNoYc",
+    "published_date": "2024-04-07",
+    "channel_name": "3Blue1Brown"
   },
   {
     "id": "570f676e-da73-56b2-a8e6-132a7b57f071",
@@ -4548,17 +4463,17 @@
       "url": "https://www.youtube.com/watch?v=0bT_jK2vQ7s"
     },
     "ingested_at": "2026-09-16",
-    "channel_name": "Matt Wolfe",
-    "youtube_id": "0bT_jK2vQ7s",
-    "duration_minutes": 19,
-    "published_date": "2024-12-15",
     "topic_tags": [
       "ai-tools",
       "productivity",
       "software",
       "generative-ai"
     ],
-    "view_count": 890000
+    "duration_minutes": 19,
+    "view_count": 890000,
+    "youtube_id": "0bT_jK2vQ7s",
+    "published_date": "2024-12-15",
+    "channel_name": "Matt Wolfe"
   },
   {
     "id": "527d1bf2-d1ad-5ab4-a121-57170fd6d62d",
@@ -4577,17 +4492,17 @@
       "url": "https://www.youtube.com/watch?v=7hPXZyWbV0w"
     },
     "ingested_at": "2026-09-16",
-    "channel_name": "AI Explained",
-    "youtube_id": "7hPXZyWbV0w",
-    "duration_minutes": 22,
-    "published_date": "2025-01-04",
     "topic_tags": [
       "deepseek",
       "moe",
       "architecture",
       "multi-head-latent-attention"
     ],
-    "view_count": 640000
+    "duration_minutes": 22,
+    "view_count": 640000,
+    "youtube_id": "7hPXZyWbV0w",
+    "published_date": "2025-01-04",
+    "channel_name": "AI Explained"
   },
   {
     "id": "8959dc9e-a9ad-5fcf-a711-8c8cecd27538",
@@ -4606,10 +4521,6 @@
       "url": "https://www.youtube.com/watch?v=Xy8vG6bL5aY"
     },
     "ingested_at": "2026-09-16",
-    "channel_name": "Fireship",
-    "youtube_id": "Xy8vG6bL5aY",
-    "duration_minutes": 12,
-    "published_date": "2024-12-02",
     "topic_tags": [
       "ai-agents",
       "langgraph",
@@ -4617,7 +4528,11 @@
       "anthropic",
       "software-engineering"
     ],
-    "view_count": 920000
+    "duration_minutes": 12,
+    "view_count": 920000,
+    "youtube_id": "Xy8vG6bL5aY",
+    "published_date": "2024-12-02",
+    "channel_name": "Fireship"
   },
   {
     "id": "40313e72-f785-559a-8aeb-5742c57baf7b",
@@ -4636,10 +4551,6 @@
       "url": "https://www.youtube.com/watch?v=zxQyTK8quyY"
     },
     "ingested_at": "2026-09-16",
-    "channel_name": "StatQuest with Josh Starmer",
-    "youtube_id": "zxQyTK8quyY",
-    "duration_minutes": 31,
-    "published_date": "2023-08-14",
     "topic_tags": [
       "transformers",
       "statquest",
@@ -4647,7 +4558,11 @@
       "nlp",
       "machine-learning"
     ],
-    "view_count": 1450000
+    "duration_minutes": 31,
+    "view_count": 1450000,
+    "youtube_id": "zxQyTK8quyY",
+    "published_date": "2023-08-14",
+    "channel_name": "StatQuest with Josh Starmer"
   },
   {
     "id": "6a0cd5f5-0504-50f6-8f06-95054acaeb3b",
@@ -4666,10 +4581,6 @@
       "url": "https://www.youtube.com/watch?v=Cp2fX8c8w3k"
     },
     "ingested_at": "2026-09-16",
-    "channel_name": "Two Minute Papers",
-    "youtube_id": "Cp2fX8c8w3k",
-    "duration_minutes": 8,
-    "published_date": "2024-08-10",
     "topic_tags": [
       "robotics",
       "humanoid",
@@ -4677,7 +4588,11 @@
       "bmw",
       "computer-vision"
     ],
-    "view_count": 1100000
+    "duration_minutes": 8,
+    "view_count": 1100000,
+    "youtube_id": "Cp2fX8c8w3k",
+    "published_date": "2024-08-10",
+    "channel_name": "Two Minute Papers"
   },
   {
     "id": "bc62096e-04df-5e79-8833-7ee4e9eb3407",
@@ -4696,10 +4611,6 @@
       "url": "https://www.youtube.com/watch?v=uK8fXjK2w3k"
     },
     "ingested_at": "2026-09-16",
-    "channel_name": "Lex Fridman Podcast",
-    "youtube_id": "uK8fXjK2w3k",
-    "duration_minutes": 184,
-    "published_date": "2024-05-18",
     "topic_tags": [
       "demis-hassabis",
       "google-deepmind",
@@ -4707,7 +4618,11 @@
       "agi",
       "podcast"
     ],
-    "view_count": 2100000
+    "duration_minutes": 184,
+    "view_count": 2100000,
+    "youtube_id": "uK8fXjK2w3k",
+    "published_date": "2024-05-18",
+    "channel_name": "Lex Fridman Podcast"
   },
   {
     "id": "b2515a2a-fd41-5d2e-8a69-ba1a0f5750a0",
@@ -4726,10 +4641,6 @@
       "url": "https://www.youtube.com/watch?v=tcqEjkK8p7w"
     },
     "ingested_at": "2026-09-16",
-    "channel_name": "Yannic Kilcher",
-    "youtube_id": "tcqEjkK8p7w",
-    "duration_minutes": 48,
-    "published_date": "2024-03-22",
     "topic_tags": [
       "rag",
       "vector-databases",
@@ -4737,7 +4648,11 @@
       "dense-retrieval",
       "enterprise-ai"
     ],
-    "view_count": 420000
+    "duration_minutes": 48,
+    "view_count": 420000,
+    "youtube_id": "tcqEjkK8p7w",
+    "published_date": "2024-03-22",
+    "channel_name": "Yannic Kilcher"
   },
   {
     "id": "ed8160e5-bd94-5dff-b923-f913becc3dba",
@@ -4756,10 +4671,6 @@
       "url": "https://www.youtube.com/watch?v=Jk9s_F6zL7k"
     },
     "ingested_at": "2026-09-16",
-    "channel_name": "Theo - t3.gg",
-    "youtube_id": "Jk9s_F6zL7k",
-    "duration_minutes": 16,
-    "published_date": "2024-08-25",
     "topic_tags": [
       "cursor",
       "developer-tools",
@@ -4767,7 +4678,11 @@
       "nextjs",
       "typescript"
     ],
-    "view_count": 780000
+    "duration_minutes": 16,
+    "view_count": 780000,
+    "youtube_id": "Jk9s_F6zL7k",
+    "published_date": "2024-08-25",
+    "channel_name": "Theo - t3.gg"
   },
   {
     "id": "b55d61b1-d6f6-5559-8b09-0f2d7c4abfd9",
@@ -4786,10 +4701,6 @@
       "url": "https://www.youtube.com/watch?v=B7b0k9s_F6z"
     },
     "ingested_at": "2026-09-16",
-    "channel_name": "Two Minute Papers",
-    "youtube_id": "B7b0k9s_F6z",
-    "duration_minutes": 10,
-    "published_date": "2024-03-19",
     "topic_tags": [
       "nvidia",
       "blackwell",
@@ -4797,7 +4708,11 @@
       "hardware",
       "supercomputing"
     ],
-    "view_count": 950000
+    "duration_minutes": 10,
+    "view_count": 950000,
+    "youtube_id": "B7b0k9s_F6z",
+    "published_date": "2024-03-19",
+    "channel_name": "Two Minute Papers"
   },
   {
     "id": "ce703e12-0359-5279-96a6-365c32bcb72b",
@@ -4816,10 +4731,6 @@
       "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g"
     },
     "ingested_at": "2026-09-16",
-    "channel_name": "Andrej Karpathy",
-    "youtube_id": "zjkBMFhNj_g",
-    "duration_minutes": 60,
-    "published_date": "2023-11-22",
     "topic_tags": [
       "llm",
       "ai-fundamentals",
@@ -4827,7 +4738,11 @@
       "rlhf",
       "security"
     ],
-    "view_count": 4100000
+    "duration_minutes": 60,
+    "view_count": 4100000,
+    "youtube_id": "zjkBMFhNj_g",
+    "published_date": "2023-11-22",
+    "channel_name": "Andrej Karpathy"
   },
   {
     "id": "9cb4bca9-c91b-5ece-a14f-002cd941d0ac",
@@ -4846,11 +4761,11 @@
       "url": "https://figure.ai"
     },
     "ingested_at": "2026-09-16",
-    "manufacturer": "Figure AI",
-    "primary_use": "Automotive Manufacturing & Logistics",
     "ai_system": "OpenAI Vision-Language Models & On-Board Neural Networks",
-    "release_status": "Commercial Pilot",
-    "form_factor": "Humanoid"
+    "primary_use": "Automotive Manufacturing & Logistics",
+    "form_factor": "Humanoid",
+    "manufacturer": "Figure AI",
+    "release_status": "Commercial Pilot"
   },
   {
     "id": "73841175-8c49-5d5b-aef6-98821dbdffb7",
@@ -4869,11 +4784,11 @@
       "url": "https://tesla.com/optimus"
     },
     "ingested_at": "2026-09-16",
-    "manufacturer": "Tesla",
-    "primary_use": "Factory Assembly & General Automation",
     "ai_system": "Tesla Full Self-Driving (FSD) Neural Network & Occupancy Network",
-    "release_status": "Internal Deployment & Testing",
-    "form_factor": "Humanoid"
+    "primary_use": "Factory Assembly & General Automation",
+    "form_factor": "Humanoid",
+    "manufacturer": "Tesla",
+    "release_status": "Internal Deployment & Testing"
   },
   {
     "id": "b8dac2af-593c-500d-a4ed-ed62bc002c8e",
@@ -4892,11 +4807,11 @@
       "url": "https://bostondynamics.com/products/spot/"
     },
     "ingested_at": "2026-09-16",
-    "manufacturer": "Boston Dynamics",
-    "primary_use": "Industrial Inspection & Remote Sensing",
     "ai_system": "Autowalk Navigation & Vision Inspection AI",
-    "release_status": "Commercial",
-    "form_factor": "Quadruped"
+    "primary_use": "Industrial Inspection & Remote Sensing",
+    "form_factor": "Quadruped",
+    "manufacturer": "Boston Dynamics",
+    "release_status": "Commercial"
   },
   {
     "id": "7cebf292-d66b-5bc2-8854-d07019fa86a0",
@@ -4915,11 +4830,11 @@
       "url": "https://bostondynamics.com/atlas/"
     },
     "ingested_at": "2026-09-16",
-    "manufacturer": "Boston Dynamics",
-    "primary_use": "Automotive Logistics & Heavy Industrial Assembly",
     "ai_system": "Reinforcement Learning & Whole-Body Trajectory Optimization",
-    "release_status": "Commercial Development",
-    "form_factor": "Humanoid"
+    "primary_use": "Automotive Logistics & Heavy Industrial Assembly",
+    "form_factor": "Humanoid",
+    "manufacturer": "Boston Dynamics",
+    "release_status": "Commercial Development"
   },
   {
     "id": "7cd98afe-dfd0-506a-8915-949c557dc843",
@@ -4938,11 +4853,11 @@
       "url": "https://agilityrobotics.com"
     },
     "ingested_at": "2026-09-16",
-    "manufacturer": "Agility Robotics",
-    "primary_use": "Logistics & Tote Handling",
     "ai_system": "Agility Arc Cloud Fleet Manager & Spatial AI",
-    "release_status": "Commercial",
-    "form_factor": "Humanoid Biped"
+    "primary_use": "Logistics & Tote Handling",
+    "form_factor": "Humanoid Biped",
+    "manufacturer": "Agility Robotics",
+    "release_status": "Commercial"
   },
   {
     "id": "0a9151b1-430b-5538-94c3-c80f955f9ec2",
@@ -4961,11 +4876,11 @@
       "url": "https://unitree.com/h1"
     },
     "ingested_at": "2026-09-16",
-    "manufacturer": "Unitree Robotics",
-    "primary_use": "Research & Dynamic Industrial Operations",
     "ai_system": "End-to-End Reinforcement Learning Locomotion",
-    "release_status": "Commercial",
-    "form_factor": "Humanoid"
+    "primary_use": "Research & Dynamic Industrial Operations",
+    "form_factor": "Humanoid",
+    "manufacturer": "Unitree Robotics",
+    "release_status": "Commercial"
   },
   {
     "id": "99f802c6-3ff3-5fee-9edd-3beef2f5d9be",
@@ -4984,11 +4899,11 @@
       "url": "https://1x.tech"
     },
     "ingested_at": "2026-09-16",
-    "manufacturer": "1X Technologies",
-    "primary_use": "Domestic Assistance & Light Industrial",
     "ai_system": "Embodied Foundation Models & Shadow Teleoperation",
-    "release_status": "Announced Consumer Beta",
-    "form_factor": "Humanoid"
+    "primary_use": "Domestic Assistance & Light Industrial",
+    "form_factor": "Humanoid",
+    "manufacturer": "1X Technologies",
+    "release_status": "Announced Consumer Beta"
   },
   {
     "id": "9b073a34-c57b-5ab1-ac91-339193a63fa1",
@@ -5007,11 +4922,11 @@
       "url": "https://bostondynamics.com/products/stretch/"
     },
     "ingested_at": "2026-09-16",
-    "manufacturer": "Boston Dynamics",
-    "primary_use": "Shipping Container Unloading & Logistics",
     "ai_system": "High-Throughput Vision Box Detection & Machine Learning",
-    "release_status": "Commercial",
-    "form_factor": "Mobile Arm on Omnidirectional Base"
+    "primary_use": "Shipping Container Unloading & Logistics",
+    "form_factor": "Mobile Arm on Omnidirectional Base",
+    "manufacturer": "Boston Dynamics",
+    "release_status": "Commercial"
   },
   {
     "id": "540af812-621a-51d5-b721-da1b91a3a338",
@@ -5030,11 +4945,11 @@
       "url": "https://apptronik.com"
     },
     "ingested_at": "2026-09-16",
-    "manufacturer": "Apptronik",
-    "primary_use": "Manufacturing & Supply Chain Warehousing",
     "ai_system": "Modular Cognitive Stack & Force-Control Actuation",
-    "release_status": "Commercial Pilot",
-    "form_factor": "Humanoid"
+    "primary_use": "Manufacturing & Supply Chain Warehousing",
+    "form_factor": "Humanoid",
+    "manufacturer": "Apptronik",
+    "release_status": "Commercial Pilot"
   },
   {
     "id": "75ae9318-d776-5917-9a1c-9f1a339e0658",
@@ -5053,11 +4968,11 @@
       "url": "https://sanctuary.ai"
     },
     "ingested_at": "2026-09-16",
-    "manufacturer": "Sanctuary AI",
-    "primary_use": "Retail, Hospitality, & Industrial Sorting",
     "ai_system": "Carbon Cognitive Architecture & Haptic Teleoperation",
-    "release_status": "Commercial Pilot",
-    "form_factor": "Humanoid (Upper Torso & Wheeled/Biped)"
+    "primary_use": "Retail, Hospitality, & Industrial Sorting",
+    "form_factor": "Humanoid (Upper Torso & Wheeled/Biped)",
+    "manufacturer": "Sanctuary AI",
+    "release_status": "Commercial Pilot"
   },
   {
     "id": "d01aa1ea-bd3c-543c-8671-eb1458e93994",
@@ -5075,16 +4990,16 @@
       "url": "https://www.nvidia.com/en-us/data-center/h100/"
     },
     "ingested_at": "2026-09-16",
-    "target_market": "Enterprise Cloud & AI Pre-training",
     "ai_accelerator": true,
+    "device_type": "Data Center GPU",
+    "target_market": "Enterprise Cloud & AI Pre-training",
     "manufacturer": "NVIDIA",
     "specs": {
       "memory": "80GB HBM3",
       "memory_bandwidth": "3.35 TB/s",
       "tflops_fp8": 1979,
       "power_watts": 700
-    },
-    "device_type": "Data Center GPU"
+    }
   },
   {
     "id": "73d959a4-3d2d-52cc-a26f-2955dfc77d5d",
@@ -5102,16 +5017,16 @@
       "url": "https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/"
     },
     "ingested_at": "2026-09-16",
-    "target_market": "Hyperscale AI Supercomputing",
     "ai_accelerator": true,
+    "device_type": "Data Center GPU",
+    "target_market": "Hyperscale AI Supercomputing",
     "manufacturer": "NVIDIA",
     "specs": {
       "memory": "192GB HBM3e",
       "memory_bandwidth": "8.0 TB/s",
       "tflops_fp4": 4500,
       "power_watts": 1000
-    },
-    "device_type": "Data Center GPU"
+    }
   },
   {
     "id": "819e0e25-055a-5361-85ba-c45bd36b0914",
@@ -5129,16 +5044,16 @@
       "url": "https://www.apple.com/macbook-pro/"
     },
     "ingested_at": "2026-09-16",
-    "target_market": "Professional Consumer & Edge AI",
     "ai_accelerator": true,
+    "device_type": "System on Chip (SoC)",
+    "target_market": "Professional Consumer & Edge AI",
     "manufacturer": "Apple",
     "specs": {
       "memory": "Up to 64GB Unified Memory",
       "memory_bandwidth": "273 GB/s",
       "neural_engine_tops": 38,
       "power_watts": 45
-    },
-    "device_type": "System on Chip (SoC)"
+    }
   },
   {
     "id": "cae15bc0-b6ac-5aeb-8304-f6ba9b96be20",
@@ -5156,16 +5071,16 @@
       "url": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html"
     },
     "ingested_at": "2026-09-16",
-    "target_market": "Enterprise Cloud & AI Inference",
     "ai_accelerator": true,
+    "device_type": "Data Center GPU",
+    "target_market": "Enterprise Cloud & AI Inference",
     "manufacturer": "AMD",
     "specs": {
       "memory": "192GB HBM3",
       "memory_bandwidth": "5.3 TB/s",
       "tflops_fp8": 1300,
       "power_watts": 750
-    },
-    "device_type": "Data Center GPU"
+    }
   },
   {
     "id": "6960d3c6-2fac-57f8-92f7-b9a6848cea3a",
@@ -5183,16 +5098,16 @@
       "url": "https://cloud.google.com/tpu/docs/v5e-intro"
     },
     "ingested_at": "2026-09-16",
-    "target_market": "Cloud Inference & Mid-Scale Training",
     "ai_accelerator": true,
+    "device_type": "Tensor Processing Unit (ASIC)",
+    "target_market": "Cloud Inference & Mid-Scale Training",
     "manufacturer": "Google",
     "specs": {
       "memory": "16GB HBM2",
       "memory_bandwidth": "819 GB/s",
       "tflops_int8": 393,
       "power_watts": 250
-    },
-    "device_type": "Tensor Processing Unit (ASIC)"
+    }
   },
   {
     "id": "886e8326-c750-5d8f-89e8-0bc91529020a",
@@ -5210,16 +5125,16 @@
       "url": "https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi3.html"
     },
     "ingested_at": "2026-09-16",
-    "target_market": "Enterprise Cloud & Tier-2 Datacenters",
     "ai_accelerator": true,
+    "device_type": "AI Accelerator (ASIC)",
+    "target_market": "Enterprise Cloud & Tier-2 Datacenters",
     "manufacturer": "Intel",
     "specs": {
       "memory": "128GB HBM2e",
       "memory_bandwidth": "3.7 TB/s",
       "tflops_fp8": 1835,
       "power_watts": 600
-    },
-    "device_type": "AI Accelerator (ASIC)"
+    }
   },
   {
     "id": "727afa53-5c5c-57dc-84b5-627e52197f23",
@@ -5237,16 +5152,16 @@
       "url": "https://www.apple.com/apple-vision-pro/"
     },
     "ingested_at": "2026-09-16",
-    "target_market": "Consumer & Enterprise Spatial Computing",
     "ai_accelerator": true,
+    "device_type": "Spatial Computing Headset",
+    "target_market": "Consumer & Enterprise Spatial Computing",
     "manufacturer": "Apple",
     "specs": {
       "chips": "Apple M2 + Custom R1 Sensor Processor",
       "sensor_latency": "12 milliseconds",
       "display": "23M pixels Micro-OLED",
       "power_watts": 30
-    },
-    "device_type": "Spatial Computing Headset"
+    }
   },
   {
     "id": "c95b5a5e-356b-53bb-9379-4c072ef638b5",
@@ -5264,16 +5179,16 @@
       "url": "https://www.rabbit.tech"
     },
     "ingested_at": "2026-09-16",
-    "target_market": "Consumer AI Gadgets",
     "ai_accelerator": false,
+    "device_type": "AI Handheld Companion",
+    "target_market": "Consumer AI Gadgets",
     "manufacturer": "Rabbit Inc",
     "specs": {
       "processor": "MediaTek Helio P35",
       "camera": "360-degree rotational eye",
       "connectivity": "4G LTE & Wi-Fi",
       "os": "rabbit OS with Large Action Model (LAM)"
-    },
-    "device_type": "AI Handheld Companion"
+    }
   },
   {
     "id": "0ef0a9a7-8ed6-5ca9-9ada-3f861291e90e",
@@ -5291,16 +5206,16 @@
       "url": "https://brilliant.xyz"
     },
     "ingested_at": "2026-09-16",
-    "target_market": "Developers & Everyday Consumers",
     "ai_accelerator": false,
+    "device_type": "Multimodal Smart Eyewear",
+    "target_market": "Developers & Everyday Consumers",
     "manufacturer": "Brilliant Labs",
     "specs": {
       "weight": "Under 40 grams",
       "display": "Micro-OLED prism",
       "connectivity": "Bluetooth 5.0",
       "open_source": "Full open-source hardware & firmware"
-    },
-    "device_type": "Multimodal Smart Eyewear"
+    }
   },
   {
     "id": "f2b960b3-cf4a-5962-9485-f231882da6fe",
@@ -5318,16 +5233,16 @@
       "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"
     },
     "ingested_at": "2026-09-16",
-    "target_market": "Autonomous Robotics, Drones & Smart Healthcare",
     "ai_accelerator": true,
+    "device_type": "Embedded Edge AI Module",
+    "target_market": "Autonomous Robotics, Drones & Smart Healthcare",
     "manufacturer": "NVIDIA",
     "specs": {
       "memory": "64GB 256-bit LPDDR5",
       "memory_bandwidth": "204.8 GB/s",
       "ai_performance_tops": 275,
       "power_watts": "15W to 60W configurable"
-    },
-    "device_type": "Embedded Edge AI Module"
+    }
   },
   {
     "id": "34e08b91-7c91-57ee-a277-8f2ed6a63502",
@@ -5345,15 +5260,15 @@
       "url": "https://aiorbit.com/tasks"
     },
     "ingested_at": "2026-09-16",
-    "task_category": "Software Engineering",
     "complexity": "Intermediate",
+    "example_prompt": "Write a Python script that connects to PostgreSQL and computes running daily active users using SQLAlchemy.",
     "tools_that_solve_this": [
       "GitHub Copilot",
       "Cursor",
       "Claude Code",
       "ChatGPT"
     ],
-    "example_prompt": "Write a Python script that connects to PostgreSQL and computes running daily active users using SQLAlchemy."
+    "task_category": "Software Engineering"
   },
   {
     "id": "32b25184-e8cd-5d55-92a0-8f17ff96e680",
@@ -5371,15 +5286,15 @@
       "url": "https://aiorbit.com/tasks"
     },
     "ingested_at": "2026-09-16",
-    "task_category": "Productivity & Research",
     "complexity": "Simple",
+    "example_prompt": "Summarize this 60-page financial quarterly report highlighting EBITDA margins, unexpected liabilities, and forward guidance.",
     "tools_that_solve_this": [
       "Claude.ai",
       "ChatGPT",
       "Notion AI",
       "Gemini"
     ],
-    "example_prompt": "Summarize this 60-page financial quarterly report highlighting EBITDA margins, unexpected liabilities, and forward guidance."
+    "task_category": "Productivity & Research"
   },
   {
     "id": "a3f1f4ef-0ac9-5afd-bbad-c3ac470ea330",
@@ -5397,15 +5312,15 @@
       "url": "https://aiorbit.com/tasks"
     },
     "ingested_at": "2026-09-16",
-    "task_category": "Creative Design",
     "complexity": "Simple",
+    "example_prompt": "An isometric 3D render of a futuristic hydroponic greenhouse on Mars with neon ambient lighting and detailed glass reflections.",
     "tools_that_solve_this": [
       "Midjourney",
       "DALL-E 3",
       "Stable Diffusion 3.5 Large",
       "Adobe Firefly"
     ],
-    "example_prompt": "An isometric 3D render of a futuristic hydroponic greenhouse on Mars with neon ambient lighting and detailed glass reflections."
+    "task_category": "Creative Design"
   },
   {
     "id": "73c155d1-e559-5831-9eb2-ed68e7a60f51",
@@ -5423,15 +5338,15 @@
       "url": "https://aiorbit.com/tasks"
     },
     "ingested_at": "2026-09-16",
-    "task_category": "Research & Search",
     "complexity": "Simple",
+    "example_prompt": "What are the latest regulatory changes affecting generative AI model exports in the European Union as of 2025?",
     "tools_that_solve_this": [
       "Perplexity",
       "ChatGPT",
       "Gemini",
       "Phind"
     ],
-    "example_prompt": "What are the latest regulatory changes affecting generative AI model exports in the European Union as of 2025?"
+    "task_category": "Research & Search"
   },
   {
     "id": "f5f0b570-d199-5ce2-a22a-6b72604392a6",
@@ -5449,14 +5364,14 @@
       "url": "https://aiorbit.com/tasks"
     },
     "ingested_at": "2026-09-16",
-    "task_category": "Audio & Media",
     "complexity": "Simple",
+    "example_prompt": "Transcribe this 45-minute audio interview into clean English text with speaker diarization and timestamp markers.",
     "tools_that_solve_this": [
       "Whisper Large v3",
       "Descript",
       "ElevenLabs"
     ],
-    "example_prompt": "Transcribe this 45-minute audio interview into clean English text with speaker diarization and timestamp markers."
+    "task_category": "Audio & Media"
   },
   {
     "id": "ff0d84e2-26cb-58d3-98e3-2b38e0945082",
@@ -5474,15 +5389,15 @@
       "url": "https://aiorbit.com/tasks"
     },
     "ingested_at": "2026-09-16",
-    "task_category": "Language & Localization",
     "complexity": "Simple",
+    "example_prompt": "Translate this legal terms of service document from English to Japanese ensuring formal business keigo register.",
     "tools_that_solve_this": [
       "Claude.ai",
       "ChatGPT",
       "Gemini",
       "DeepL"
     ],
-    "example_prompt": "Translate this legal terms of service document from English to Japanese ensuring formal business keigo register."
+    "task_category": "Language & Localization"
   },
   {
     "id": "63bf9c7b-49bb-52ab-b1b6-60d0edccabe0",
@@ -5500,15 +5415,15 @@
       "url": "https://aiorbit.com/tasks"
     },
     "ingested_at": "2026-09-16",
-    "task_category": "Creative Media",
     "complexity": "Complex",
+    "example_prompt": "Cinematic drone shot flying through a bioluminescent redwood forest at dusk with volumetric fog and gentle camera roll.",
     "tools_that_solve_this": [
       "Runway Gen-3",
       "Sora",
       "Luma Dream Machine",
       "Kling"
     ],
-    "example_prompt": "Cinematic drone shot flying through a bioluminescent redwood forest at dusk with volumetric fog and gentle camera roll."
+    "task_category": "Creative Media"
   },
   {
     "id": "f1fd78dd-f772-535e-ac81-dcd92c9448a6",
@@ -5526,15 +5441,15 @@
       "url": "https://aiorbit.com/tasks"
     },
     "ingested_at": "2026-09-16",
-    "task_category": "Data Science",
     "complexity": "Intermediate",
+    "example_prompt": "Load this CSV of customer transactions, calculate monthly churn rates by cohort, and plot an interactive heatmap.",
     "tools_that_solve_this": [
       "ChatGPT",
       "Claude.ai",
       "Databricks",
       "Weights & Biases"
     ],
-    "example_prompt": "Load this CSV of customer transactions, calculate monthly churn rates by cohort, and plot an interactive heatmap."
+    "task_category": "Data Science"
   },
   {
     "id": "6f63e3f9-76d8-5a57-993e-ac5d3d206b6f",
@@ -5552,15 +5467,15 @@
       "url": "https://aiorbit.com/tasks"
     },
     "ingested_at": "2026-09-16",
-    "task_category": "Business Communications",
     "complexity": "Simple",
+    "example_prompt": "Draft an empathetic yet firm email negotiating contract renewal terms with an enterprise client asking for a 15% discount.",
     "tools_that_solve_this": [
       "Grammarly AI",
       "Notion AI",
       "ChatGPT",
       "Claude.ai"
     ],
-    "example_prompt": "Draft an empathetic yet firm email negotiating contract renewal terms with an enterprise client asking for a 15% discount."
+    "task_category": "Business Communications"
   },
   {
     "id": "d55e3f5b-f9c5-5728-97f8-e0a6e37d10e0",
@@ -5578,15 +5493,15 @@
       "url": "https://aiorbit.com/tasks"
     },
     "ingested_at": "2026-09-16",
-    "task_category": "Software Engineering",
     "complexity": "Intermediate",
+    "example_prompt": "Create an end-to-end SaaS subscription tracker with user authentication, Stripe checkout, and an analytics dashboard.",
     "tools_that_solve_this": [
       "Bolt.new",
       "Lovable",
       "v0",
       "Replit AI"
     ],
-    "example_prompt": "Create an end-to-end SaaS subscription tracker with user authentication, Stripe checkout, and an analytics dashboard."
+    "task_category": "Software Engineering"
   },
   {
     "id": "4d4387a1-2667-5c94-b186-b39f7d021af5",
@@ -5604,14 +5519,14 @@
       "url": "https://aiorbit.com/tasks"
     },
     "ingested_at": "2026-09-16",
-    "task_category": "Audio & Media",
     "complexity": "Simple",
+    "example_prompt": "Convert this audiobook chapter narration into speech using an elderly Scottish narrator voice with expressive dramatic pauses.",
     "tools_that_solve_this": [
       "ElevenLabs",
       "Descript",
       "ChatGPT"
     ],
-    "example_prompt": "Convert this audiobook chapter narration into speech using an elderly Scottish narrator voice with expressive dramatic pauses."
+    "task_category": "Audio & Media"
   },
   {
     "id": "7b42e9ae-5d01-595e-a523-07ba4012e2e6",
@@ -5629,15 +5544,15 @@
       "url": "https://aiorbit.com/tasks"
     },
     "ingested_at": "2026-09-16",
-    "task_category": "Research & Analysis",
     "complexity": "Complex",
+    "example_prompt": "Conduct an exhaustive market analysis on solid-state battery commercialization timelines, patent holders, and manufacturing hurdles.",
     "tools_that_solve_this": [
       "Perplexity",
       "Claude.ai",
       "NotebookLM",
       "Gemini"
     ],
-    "example_prompt": "Conduct an exhaustive market analysis on solid-state battery commercialization timelines, patent holders, and manufacturing hurdles."
+    "task_category": "Research & Analysis"
   },
   {
     "id": "b4962e34-8fcf-5ce6-bba7-97a31f97f269",
@@ -5655,15 +5570,15 @@
       "url": "https://aiorbit.com/tasks"
     },
     "ingested_at": "2026-09-16",
-    "task_category": "Software Engineering",
     "complexity": "Intermediate",
+    "example_prompt": "Analyze this memory leak error trace in a high-concurrency Go web server and supply the exact concurrency mutex fix.",
     "tools_that_solve_this": [
       "Cursor",
       "Claude Code",
       "GitHub Copilot",
       "ChatGPT"
     ],
-    "example_prompt": "Analyze this memory leak error trace in a high-concurrency Go web server and supply the exact concurrency mutex fix."
+    "task_category": "Software Engineering"
   },
   {
     "id": "5a45e6d7-f6ed-5f8e-9640-2bd1c50a3783",
@@ -5681,14 +5596,14 @@
       "url": "https://aiorbit.com/tasks"
     },
     "ingested_at": "2026-09-16",
-    "task_category": "Creative Audio",
     "complexity": "Simple",
+    "example_prompt": "Compose an energetic 90s synth-wave track with driving bass, melodic arpeggios, and nostalgic vocal hooks about highway night driving.",
     "tools_that_solve_this": [
       "Suno",
       "Udio",
       "ElevenLabs"
     ],
-    "example_prompt": "Compose an energetic 90s synth-wave track with driving bass, melodic arpeggios, and nostalgic vocal hooks about highway night driving."
+    "task_category": "Creative Audio"
   },
   {
     "id": "87f0371f-5efa-5329-906d-df7acee8bd55",
@@ -5706,15 +5621,15 @@
       "url": "https://aiorbit.com/tasks"
     },
     "ingested_at": "2026-09-16",
-    "task_category": "Operations & RPA",
     "complexity": "Complex",
+    "example_prompt": "Monitor incoming invoice emails, extract billing tables into JSON, match purchase orders in ERP, and alert Slack on discrepancies.",
     "tools_that_solve_this": [
       "LangChain",
       "Claude Code",
       "Playwright MCP Server",
       "ChatGPT"
     ],
-    "example_prompt": "Monitor incoming invoice emails, extract billing tables into JSON, match purchase orders in ERP, and alert Slack on discrepancies."
+    "task_category": "Operations & RPA"
   },
   {
     "id": "4bdd85e7-bdad-5efb-bb4f-6c55d60d5234",
@@ -5732,15 +5647,15 @@
       "url": "https://aiorbit.com/tasks"
     },
     "ingested_at": "2026-09-16",
-    "task_category": "Data Engineering",
     "complexity": "Intermediate",
+    "example_prompt": "Parse these 50 unstructured medical claim PDFs and output a normalized JSON schema with patient ID, diagnosis codes, and billed amounts.",
     "tools_that_solve_this": [
       "Claude.ai",
       "LlamaIndex",
       "ChatGPT",
       "Scale AI"
     ],
-    "example_prompt": "Parse these 50 unstructured medical claim PDFs and output a normalized JSON schema with patient ID, diagnosis codes, and billed amounts."
+    "task_category": "Data Engineering"
   },
   {
     "id": "dd562250-c41f-565e-99a9-68d05e1d7671",
@@ -5758,15 +5673,15 @@
       "url": "https://aiorbit.com/tasks"
     },
     "ingested_at": "2026-09-16",
-    "task_category": "Machine Learning Ops",
     "complexity": "Complex",
+    "example_prompt": "Fine-tune a Llama 3.1 8B base model using LoRA adapters on 10,000 domain-specific customer service dialogue transcripts.",
     "tools_that_solve_this": [
       "Together AI",
       "Hugging Face",
       "Weights & Biases",
       "Replicate"
     ],
-    "example_prompt": "Fine-tune a Llama 3.1 8B base model using LoRA adapters on 10,000 domain-specific customer service dialogue transcripts."
+    "task_category": "Machine Learning Ops"
   },
   {
     "id": "e020290f-4c64-58f7-9530-f28ecd2b9de3",
@@ -5784,15 +5699,15 @@
       "url": "https://aiorbit.com/tasks"
     },
     "ingested_at": "2026-09-16",
-    "task_category": "Cloud Infrastructure",
     "complexity": "Complex",
+    "example_prompt": "Deploy a distributed vLLM inference cluster on Kubernetes with multi-GPU tensor parallelism, autoscaling, and PagedAttention.",
     "tools_that_solve_this": [
       "vLLM",
       "Together AI",
       "Replicate",
       "Ollama"
     ],
-    "example_prompt": "Deploy a distributed vLLM inference cluster on Kubernetes with multi-GPU tensor parallelism, autoscaling, and PagedAttention."
+    "task_category": "Cloud Infrastructure"
   },
   {
     "id": "b6c1ec2a-0ef4-56ac-9f3f-a18236f2abc3",
@@ -5811,9 +5726,9 @@
     },
     "ingested_at": "2026-09-16",
     "github_stars": 115000,
-    "collection_type": "GitHub Awesome List & Prompt Collection",
-    "github_url": "https://github.com/f/awesome-chatgpt-prompts",
     "maintained_by": "Fatih Kadir Akın & Global Open Source Community",
+    "github_url": "https://github.com/f/awesome-chatgpt-prompts",
+    "collection_type": "GitHub Awesome List & Prompt Collection",
     "item_count": 250
   },
   {
@@ -5833,9 +5748,9 @@
     },
     "ingested_at": "2026-09-16",
     "github_stars": 19500,
-    "collection_type": "Curated Academic Literature & Research List",
-    "github_url": "https://github.com/Hannibal046/Awesome-LLM",
     "maintained_by": "Kehai Chen & Academic Contributors",
+    "github_url": "https://github.com/Hannibal046/Awesome-LLM",
+    "collection_type": "Curated Academic Literature & Research List",
     "item_count": 650
   },
   {
@@ -5855,9 +5770,9 @@
     },
     "ingested_at": "2026-09-16",
     "github_stars": 26000,
-    "collection_type": "Protocol Tool Index & Community Directory",
-    "github_url": "https://github.com/punkpeye/awesome-mcp-servers",
     "maintained_by": "punkpeye & MCP Developer Community",
+    "github_url": "https://github.com/punkpeye/awesome-mcp-servers",
+    "collection_type": "Protocol Tool Index & Community Directory",
     "item_count": 1200
   },
   {
@@ -5877,9 +5792,9 @@
     },
     "ingested_at": "2026-09-16",
     "github_stars": 36000,
-    "collection_type": "Crowdsourced Benchmark & ELO Leaderboard",
-    "github_url": "https://github.com/lm-sys/FastChat",
     "maintained_by": "Large Model Systems Organization (LMSYS)",
+    "github_url": "https://github.com/lm-sys/FastChat",
+    "collection_type": "Crowdsourced Benchmark & ELO Leaderboard",
     "item_count": 140
   },
   {
@@ -5899,9 +5814,9 @@
     },
     "ingested_at": "2026-09-16",
     "github_stars": 14000,
-    "collection_type": "Machine Learning Research & Benchmark Index",
-    "github_url": "https://github.com/paperswithcode/paperswithcode-data",
     "maintained_by": "Meta AI & Community Contributors",
+    "github_url": "https://github.com/paperswithcode/paperswithcode-data",
+    "collection_type": "Machine Learning Research & Benchmark Index",
     "item_count": 95000
   },
   {
@@ -5921,9 +5836,9 @@
     },
     "ingested_at": "2026-09-16",
     "github_stars": 8200,
-    "collection_type": "Automated Benchmark & Model Evaluation Hub",
-    "github_url": "https://github.com/EleutherAI/lm-evaluation-harness",
     "maintained_by": "Hugging Face Research Team",
+    "github_url": "https://github.com/EleutherAI/lm-evaluation-harness",
+    "collection_type": "Automated Benchmark & Model Evaluation Hub",
     "item_count": 8500
   },
   {
@@ -5943,9 +5858,9 @@
     },
     "ingested_at": "2026-09-16",
     "github_stars": 4200,
-    "collection_type": "Open-Source AI Pre-Training Dataset",
-    "github_url": "https://github.com/EleutherAI/the-pile",
     "maintained_by": "EleutherAI Non-Profit Research Group",
+    "github_url": "https://github.com/EleutherAI/the-pile",
+    "collection_type": "Open-Source AI Pre-Training Dataset",
     "item_count": 22
   },
   {
@@ -5965,9 +5880,9 @@
     },
     "ingested_at": "2026-09-16",
     "github_stars": null,
-    "collection_type": "Commercial Prompt Marketplace & Repository",
-    "github_url": "",
     "maintained_by": "PromptBase Inc",
+    "github_url": "",
+    "collection_type": "Commercial Prompt Marketplace & Repository",
     "item_count": 120000
   },
   {
@@ -5987,9 +5902,9 @@
     },
     "ingested_at": "2026-09-16",
     "github_stars": null,
-    "collection_type": "Interactive Prompt Sharing Community & App Store",
-    "github_url": "",
     "maintained_by": "FlowGPT Inc",
+    "github_url": "",
+    "collection_type": "Interactive Prompt Sharing Community & App Store",
     "item_count": 450000
   },
   {
@@ -6009,9 +5924,9 @@
     },
     "ingested_at": "2026-09-16",
     "github_stars": 20000,
-    "collection_type": "Global Machine Learning Dataset Archive",
-    "github_url": "https://github.com/huggingface/datasets",
     "maintained_by": "Hugging Face & Global Community",
+    "github_url": "https://github.com/huggingface/datasets",
+    "collection_type": "Global Machine Learning Dataset Archive",
     "item_count": 220000
   },
   {
@@ -6031,15 +5946,15 @@
       "url": "https://inflection.ai"
     },
     "ingested_at": "2026-09-16",
-    "personality_type": "Empathetic Conversational Companion",
+    "pricing": "Free",
+    "has_memory": true,
     "platforms": [
       "Web",
       "iOS",
       "Android",
       "WhatsApp"
     ],
-    "pricing": "Free",
-    "has_memory": true,
+    "personality_type": "Empathetic Conversational Companion",
     "company": "Inflection AI"
   },
   {
@@ -6059,15 +5974,15 @@
       "url": "https://replika.com"
     },
     "ingested_at": "2026-09-16",
-    "personality_type": "AI Companion & Emotional Confidant",
+    "pricing": "Freemium",
+    "has_memory": true,
     "platforms": [
       "iOS",
       "Android",
       "Web",
       "Oculus VR"
     ],
-    "pricing": "Freemium",
-    "has_memory": true,
+    "personality_type": "AI Companion & Emotional Confidant",
     "company": "Luka Inc"
   },
   {
@@ -6087,14 +6002,14 @@
       "url": "https://character.ai"
     },
     "ingested_at": "2026-09-16",
-    "personality_type": "Roleplay & Multi-Persona Companion",
+    "pricing": "Freemium",
+    "has_memory": true,
     "platforms": [
       "Web",
       "iOS",
       "Android"
     ],
-    "pricing": "Freemium",
-    "has_memory": true,
+    "personality_type": "Roleplay & Multi-Persona Companion",
     "company": "Character.AI"
   },
   {
@@ -6114,12 +6029,12 @@
       "url": "https://new.computer"
     },
     "ingested_at": "2026-09-16",
-    "personality_type": "Reflective Personal Life Companion",
+    "pricing": "Paid",
+    "has_memory": true,
     "platforms": [
       "iOS"
     ],
-    "pricing": "Paid",
-    "has_memory": true,
+    "personality_type": "Reflective Personal Life Companion",
     "company": "New Computer"
   },
   {
@@ -6139,14 +6054,14 @@
       "url": "https://nomi.ai"
     },
     "ingested_at": "2026-09-16",
-    "personality_type": "Humanlike Companion with Spatial Context",
+    "pricing": "Freemium",
+    "has_memory": true,
     "platforms": [
       "Web",
       "iOS",
       "Android"
     ],
-    "pricing": "Freemium",
-    "has_memory": true,
+    "personality_type": "Humanlike Companion with Spatial Context",
     "company": "Nomi AI"
   },
   {
@@ -6166,13 +6081,13 @@
       "url": "https://hume.ai"
     },
     "ingested_at": "2026-09-16",
-    "personality_type": "Empathic Voice Interface (EVI)",
+    "pricing": "Freemium",
+    "has_memory": false,
     "platforms": [
       "Web",
       "API"
     ],
-    "pricing": "Freemium",
-    "has_memory": false,
+    "personality_type": "Empathic Voice Interface (EVI)",
     "company": "Hume AI"
   },
   {
@@ -6192,13 +6107,13 @@
       "url": "https://woebothealth.com"
     },
     "ingested_at": "2026-09-16",
-    "personality_type": "CBT Mental Health Coach",
+    "pricing": "Free / Clinical",
+    "has_memory": true,
     "platforms": [
       "iOS",
       "Android"
     ],
-    "pricing": "Free / Clinical",
-    "has_memory": true,
+    "personality_type": "CBT Mental Health Coach",
     "company": "Woebot Health"
   },
   {
@@ -6218,13 +6133,13 @@
       "url": "https://wysa.com"
     },
     "ingested_at": "2026-09-16",
-    "personality_type": "Emotional Wellness & Mindfulness Guide",
+    "pricing": "Freemium",
+    "has_memory": true,
     "platforms": [
       "iOS",
       "Android"
     ],
-    "pricing": "Freemium",
-    "has_memory": true,
+    "personality_type": "Emotional Wellness & Mindfulness Guide",
     "company": "Wysa Inc"
   },
   {
@@ -6244,14 +6159,14 @@
       "url": "https://youper.ai"
     },
     "ingested_at": "2026-09-16",
-    "personality_type": "Interactive Mood Tracker & Therapy Companion",
+    "pricing": "Freemium",
+    "has_memory": true,
     "platforms": [
       "iOS",
       "Android",
       "Web"
     ],
-    "pricing": "Freemium",
-    "has_memory": true,
+    "personality_type": "Interactive Mood Tracker & Therapy Companion",
     "company": "Youper Inc"
   },
   {
@@ -6271,14 +6186,14 @@
       "url": "https://kindroid.ai"
     },
     "ingested_at": "2026-09-16",
-    "personality_type": "Bespoke Personal Companion",
+    "pricing": "Freemium",
+    "has_memory": true,
     "platforms": [
       "Web",
       "iOS",
       "Android"
     ],
-    "pricing": "Freemium",
-    "has_memory": true,
+    "personality_type": "Bespoke Personal Companion",
     "company": "Kindroid"
   },
   {
@@ -6297,11 +6212,11 @@
       "url": "https://openai.com/dall-e-3"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
-    "quality_tier": "Professional",
     "pricing": "Paid / Integrated in ChatGPT",
-    "company": "OpenAI",
-    "output_type": "Image"
+    "quality_tier": "Professional",
+    "api_available": true,
+    "output_type": "Image",
+    "company": "OpenAI"
   },
   {
     "id": "aeebeed7-f162-51a3-ac26-a6391d891a0d",
@@ -6319,11 +6234,11 @@
       "url": "https://stability.ai"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
-    "quality_tier": "Professional",
     "pricing": "Open Source / Freemium",
-    "company": "Stability AI",
-    "output_type": "Image"
+    "quality_tier": "Professional",
+    "api_available": true,
+    "output_type": "Image",
+    "company": "Stability AI"
   },
   {
     "id": "846535d7-2824-5368-af0e-685f67b343c0",
@@ -6341,11 +6256,11 @@
       "url": "https://midjourney.com"
     },
     "ingested_at": "2026-09-16",
-    "api_available": false,
-    "quality_tier": "Professional",
     "pricing": "Paid",
-    "company": "Midjourney",
-    "output_type": "Image"
+    "quality_tier": "Professional",
+    "api_available": false,
+    "output_type": "Image",
+    "company": "Midjourney"
   },
   {
     "id": "f554eee9-4d76-5b69-b82e-eb6ae598f488",
@@ -6363,11 +6278,11 @@
       "url": "https://suno.com"
     },
     "ingested_at": "2026-09-16",
-    "api_available": false,
-    "quality_tier": "Consumer",
     "pricing": "Freemium",
-    "company": "Suno AI",
-    "output_type": "Music & Vocals"
+    "quality_tier": "Consumer",
+    "api_available": false,
+    "output_type": "Music & Vocals",
+    "company": "Suno AI"
   },
   {
     "id": "b68939bb-c30a-57cf-bd11-2ea8aa813575",
@@ -6385,11 +6300,11 @@
       "url": "https://udio.com"
     },
     "ingested_at": "2026-09-16",
-    "api_available": false,
-    "quality_tier": "Professional",
     "pricing": "Freemium",
-    "company": "Udio",
-    "output_type": "Music & Vocals"
+    "quality_tier": "Professional",
+    "api_available": false,
+    "output_type": "Music & Vocals",
+    "company": "Udio"
   },
   {
     "id": "428632ef-20f5-5a2b-8750-5448ee1cf69a",
@@ -6407,11 +6322,11 @@
       "url": "https://runwayml.com"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
-    "quality_tier": "Professional",
     "pricing": "Freemium",
-    "company": "Runway",
-    "output_type": "Video"
+    "quality_tier": "Professional",
+    "api_available": true,
+    "output_type": "Video",
+    "company": "Runway"
   },
   {
     "id": "38c3536f-c268-595d-af83-01aedd7f88b7",
@@ -6429,11 +6344,11 @@
       "url": "https://klingai.com"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
-    "quality_tier": "Professional",
     "pricing": "Freemium",
-    "company": "Kuaishou",
-    "output_type": "Video"
+    "quality_tier": "Professional",
+    "api_available": true,
+    "output_type": "Video",
+    "company": "Kuaishou"
   },
   {
     "id": "70b36b83-164b-54d2-bb45-3ce5ad1450d9",
@@ -6451,11 +6366,11 @@
       "url": "https://pika.art"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
-    "quality_tier": "Consumer",
     "pricing": "Freemium",
-    "company": "Pika Labs",
-    "output_type": "Video"
+    "quality_tier": "Consumer",
+    "api_available": true,
+    "output_type": "Video",
+    "company": "Pika Labs"
   },
   {
     "id": "3d9120ad-69a5-5095-8e15-747a405afb78",
@@ -6473,11 +6388,11 @@
       "url": "https://elevenlabs.io"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
-    "quality_tier": "Professional",
     "pricing": "Freemium",
-    "company": "ElevenLabs",
-    "output_type": "Voice & Audio"
+    "quality_tier": "Professional",
+    "api_available": true,
+    "output_type": "Voice & Audio",
+    "company": "ElevenLabs"
   },
   {
     "id": "e9b5533f-4892-5235-a6c1-abf26c327c31",
@@ -6495,11 +6410,11 @@
       "url": "https://www.adobe.com/products/firefly.html"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
-    "quality_tier": "Professional",
     "pricing": "Freemium / Creative Cloud",
-    "company": "Adobe",
-    "output_type": "Image & Vector Graphics"
+    "quality_tier": "Professional",
+    "api_available": true,
+    "output_type": "Image & Vector Graphics",
+    "company": "Adobe"
   },
   {
     "id": "b1282063-e72e-5dbd-a4f3-0916bba7c88e",
@@ -6517,11 +6432,11 @@
       "url": "https://lumalabs.ai/dream-machine"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
-    "quality_tier": "Professional",
     "pricing": "Freemium",
-    "company": "Luma AI",
-    "output_type": "Video"
+    "quality_tier": "Professional",
+    "api_available": true,
+    "output_type": "Video",
+    "company": "Luma AI"
   },
   {
     "id": "222311be-aec2-52e9-bc9a-a0646c7ed5b9",
@@ -6539,11 +6454,11 @@
       "url": "https://heygen.com"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
-    "quality_tier": "Professional",
     "pricing": "Freemium",
-    "company": "HeyGen",
-    "output_type": "Avatar Video"
+    "quality_tier": "Professional",
+    "api_available": true,
+    "output_type": "Avatar Video",
+    "company": "HeyGen"
   },
   {
     "id": "96575242-aeb6-5f31-bf96-d4f2e908c7fa",
@@ -6561,11 +6476,11 @@
       "url": "https://ideogram.ai"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
-    "quality_tier": "Professional",
     "pricing": "Freemium",
-    "company": "Ideogram",
-    "output_type": "Typography & Image"
+    "quality_tier": "Professional",
+    "api_available": true,
+    "output_type": "Typography & Image",
+    "company": "Ideogram"
   },
   {
     "id": "5bb5a1ca-190c-52b6-901e-1ddeaae1348d",
@@ -6583,11 +6498,11 @@
       "url": "https://blackforestlabs.ai"
     },
     "ingested_at": "2026-09-16",
-    "api_available": true,
-    "quality_tier": "Professional",
     "pricing": "Open Source / API",
-    "company": "Black Forest Labs",
-    "output_type": "Image"
+    "quality_tier": "Professional",
+    "api_available": true,
+    "output_type": "Image",
+    "company": "Black Forest Labs"
   },
   {
     "id": "d76147c9-51e1-5f05-bf5f-87a63a7beb70",
@@ -6605,9 +6520,9 @@
       "url": "https://deepseek.com"
     },
     "ingested_at": "2026-09-16",
-    "launch_date": "2025-01",
-    "entity_subtype": "model",
     "launch_source": "Official Research Blog",
+    "entity_subtype": "model",
+    "launch_date": "2025-01",
     "hype_level": "High"
   },
   {
@@ -6626,9 +6541,9 @@
       "url": "https://manus.im"
     },
     "ingested_at": "2026-09-16",
-    "launch_date": "2025-03",
-    "entity_subtype": "agent",
     "launch_source": "ProductHunt & Global Launch",
+    "entity_subtype": "agent",
+    "launch_date": "2025-03",
     "hype_level": "High"
   },
   {
@@ -6647,9 +6562,9 @@
       "url": "https://jules.google"
     },
     "ingested_at": "2026-09-16",
-    "launch_date": "2024-12",
-    "entity_subtype": "agent",
     "launch_source": "Google Research",
+    "entity_subtype": "agent",
+    "launch_date": "2024-12",
     "hype_level": "High"
   },
   {
@@ -6668,9 +6583,9 @@
       "url": "https://www.apple.com/apple-intelligence/"
     },
     "ingested_at": "2026-09-16",
-    "launch_date": "2024-10",
-    "entity_subtype": "platform",
     "launch_source": "Apple WWDC",
+    "entity_subtype": "platform",
+    "launch_date": "2024-10",
     "hype_level": "High"
   },
   {
@@ -6689,9 +6604,9 @@
       "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/"
     },
     "ingested_at": "2026-09-16",
-    "launch_date": "2024-07",
-    "entity_subtype": "model",
     "launch_source": "OpenAI Announcements",
+    "entity_subtype": "model",
+    "launch_date": "2024-07",
     "hype_level": "High"
   },
   {
@@ -6710,9 +6625,9 @@
       "url": "https://www.anthropic.com/news/claude-3-5-haiku"
     },
     "ingested_at": "2026-09-16",
-    "launch_date": "2024-11",
-    "entity_subtype": "model",
     "launch_source": "Anthropic Newsroom",
+    "entity_subtype": "model",
+    "launch_date": "2024-11",
     "hype_level": "High"
   },
   {
@@ -6731,9 +6646,9 @@
       "url": "https://deepmind.google/technologies/gemini/flash/"
     },
     "ingested_at": "2026-09-16",
-    "launch_date": "2024-12",
-    "entity_subtype": "model",
     "launch_source": "Google DeepMind",
+    "entity_subtype": "model",
+    "launch_date": "2024-12",
     "hype_level": "High"
   },
   {
@@ -6752,9 +6667,9 @@
       "url": "https://qwenlm.github.io/blog/qwq-32b-preview/"
     },
     "ingested_at": "2026-09-16",
-    "launch_date": "2024-11",
-    "entity_subtype": "model",
     "launch_source": "Alibaba Cloud",
+    "entity_subtype": "model",
+    "launch_date": "2024-11",
     "hype_level": "Medium"
   },
   {
@@ -6773,9 +6688,9 @@
       "url": "https://lovable.dev"
     },
     "ingested_at": "2026-09-16",
-    "launch_date": "2024-10",
-    "entity_subtype": "tool",
     "launch_source": "ProductHunt",
+    "entity_subtype": "tool",
+    "launch_date": "2024-10",
     "hype_level": "High"
   },
   {
@@ -6794,9 +6709,9 @@
       "url": "https://bolt.new"
     },
     "ingested_at": "2026-09-16",
-    "launch_date": "2024-09",
-    "entity_subtype": "tool",
     "launch_source": "StackBlitz Announcement",
+    "entity_subtype": "tool",
+    "launch_date": "2024-09",
     "hype_level": "High"
   },
   {
@@ -6815,9 +6730,9 @@
       "url": "https://cursor.com/blog"
     },
     "ingested_at": "2026-09-16",
-    "launch_date": "2024-09",
-    "entity_subtype": "tool",
     "launch_source": "Anysphere Blog",
+    "entity_subtype": "tool",
+    "launch_date": "2024-09",
     "hype_level": "High"
   },
   {
@@ -6836,9 +6751,9 @@
       "url": "https://notebooklm.google.com"
     },
     "ingested_at": "2026-09-16",
-    "launch_date": "2024-06",
-    "entity_subtype": "tool",
     "launch_source": "Google I/O",
+    "entity_subtype": "tool",
+    "launch_date": "2024-06",
     "hype_level": "High"
   },
   {
@@ -6857,9 +6772,9 @@
       "url": "https://openai.com/o1/"
     },
     "ingested_at": "2026-09-16",
-    "launch_date": "2024-09",
-    "entity_subtype": "model",
     "launch_source": "OpenAI Announcements",
+    "entity_subtype": "model",
+    "launch_date": "2024-09",
     "hype_level": "High"
   }
 ]
