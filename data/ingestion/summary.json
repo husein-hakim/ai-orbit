@@ -1,0 +1,38 @@
+{
+  "run_at": "2026-09-16T15:15:14Z",
+  "total_entities": 257,
+  "total_relationships": 261,
+  "by_type": {
+    "mcp": 35,
+    "model": 32,
+    "company": 28,
+    "tool": 22,
+    "repository": 25,
+    "news": 22,
+    "video": 12,
+    "robot": 10,
+    "device": 10,
+    "task": 18,
+    "collection": 10,
+    "personal": 10,
+    "creative": 14,
+    "new": 13
+  },
+  "predicates": [
+    "built_on",
+    "competitor_of",
+    "develops",
+    "featured_in",
+    "integrates_with",
+    "makes",
+    "part_of",
+    "runs_on",
+    "solves",
+    "tutorial_for"
+  ],
+  "outputs": {
+    "entities": "/Users/husein/Documents/ai-orbit/src/../data/ingestion/entities.json",
+    "relationships": "/Users/husein/Documents/ai-orbit/src/../data/ingestion/relationships.json",
+    "summary": "/Users/husein/Documents/ai-orbit/src/../data/ingestion/summary.json"
+  }
+}
